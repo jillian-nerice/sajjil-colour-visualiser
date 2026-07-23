@@ -194,45 +194,72 @@ themeTitle.textContent =
 
 artworkCount.textContent =
   `${visibleArtworks.length} artworks`;
-visibleArtworks.forEach((artwork, index) => {
-  const angle = (artwork.hue - 90) * Math.PI / 180;
+visibleArtworks.forEach((artwork, artworkIndex) => {
 
-  const distance = Math.max(
-    36,
-    artwork.saturation * radius
-  );
+  artwork.dominantColours.forEach((colour, colourIndex) => {
 
-  const jitterAmount = 10;
-  const jitterAngle = index * 2.399963229728653; // golden angle
-  const jitterX = Math.cos(jitterAngle) * jitterAmount;
-  const jitterY = Math.sin(jitterAngle) * jitterAmount;
+    const angle =
+      (colour.hue - 90) * Math.PI / 180;
 
-  const x = centreX + Math.cos(angle) * distance + jitterX;
-  const y = centreY + Math.sin(angle) * distance + jitterY;
+    const distance =
+      Math.max(
+        35,
+        colour.saturation * radius
+      );
 
-  ctx.save();
+    const jitter =
+      artworkIndex * 7 +
+      colourIndex * 13;
 
-  ctx.globalAlpha = 0.78;
-  ctx.fillStyle = artwork.plotColour;
+    const jitterX =
+      Math.cos(jitter) * 8;
 
-  ctx.beginPath();
-  ctx.arc(x, y, 15, 0, Math.PI * 2);
-  ctx.fill();
+    const jitterY =
+      Math.sin(jitter) * 8;
 
-  ctx.globalAlpha = 1;
-  ctx.strokeStyle = "rgba(255,255,255,0.92)";
-  ctx.lineWidth = 2.5;
-  ctx.stroke();
+    const x =
+      centreX +
+      Math.cos(angle) * distance +
+      jitterX;
 
-  ctx.restore();
+    const y =
+      centreY +
+      Math.sin(angle) * distance +
+      jitterY;
 
-  points.push({
-    x,
-    y,
-    radius: 15,
-    artwork
+    const dotRadius =
+      10 + colour.percentage * 0.15;
+
+    ctx.beginPath();
+
+    ctx.arc(
+      x,
+      y,
+      dotRadius,
+      0,
+      Math.PI * 2
+    );
+
+    ctx.fillStyle =
+      colour.hex;
+
+    ctx.fill();
+
+    ctx.strokeStyle = "#ffffff";
+    ctx.lineWidth = 1.5;
+    ctx.stroke();
+
+    points.push({
+      x,
+      y,
+      radius: dotRadius + 4,
+      artwork
+    });
+
   });
-  console.log(points);
+
+
+ 
 
 });
 

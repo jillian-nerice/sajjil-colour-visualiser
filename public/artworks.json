@@ -8,52 +8,82 @@
     "accession": "2007.1.1668",
     "theme": "Nature",
     "image": "../paintings/nature/2007.1.1668.jpg",
-    "plotColour": "#46322d",
-    "hue": 11.99999999999999,
-    "saturation": 0.35714285714285715,
-    "value": 0.27450980392156865,
+    "plotColour": "#d48018",
+    "hue": 33.19148936170212,
+    "saturation": 0.8867924528301887,
+    "value": 0.8313725490196079,
     "dominantColours": [
       {
-        "hex": "#46322d",
-        "hue": 11.99999999999999,
-        "saturation": 0.35714285714285715,
-        "value": 0.27450980392156865,
-        "percentage": 6.5
+        "hex": "#d48018",
+        "hue": 33.19148936170212,
+        "saturation": 0.8867924528301887,
+        "value": 0.8313725490196079,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.696
       },
       {
-        "hex": "#2e1e1c",
-        "hue": 6.666666666666666,
-        "saturation": 0.391304347826087,
-        "value": 0.1803921568627451,
-        "percentage": 6.3
+        "hex": "#db4a2b",
+        "hue": 10.568181818181818,
+        "saturation": 0.8036529680365297,
+        "value": 0.8588235294117647,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.657
       },
       {
-        "hex": "#332b2b",
-        "hue": 0,
-        "saturation": 0.1568627450980392,
-        "value": 0.2,
-        "percentage": 6
+        "hex": "#a76e19",
+        "hue": 35.91549295774648,
+        "saturation": 0.8502994011976048,
+        "value": 0.6549019607843137,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.631
       },
       {
-        "hex": "#1d191b",
-        "hue": 330,
-        "saturation": 0.13793103448275862,
-        "value": 0.11372549019607843,
-        "percentage": 5.7
+        "hex": "#dbb13c",
+        "hue": 44.15094339622641,
+        "saturation": 0.726027397260274,
+        "value": 0.8588235294117647,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.614
       },
       {
-        "hex": "#5d4c47",
-        "hue": 13.636363636363631,
-        "saturation": 0.23655913978494617,
-        "value": 0.36470588235294116,
-        "percentage": 4.7
+        "hex": "#893a18",
+        "hue": 18.053097345132745,
+        "saturation": 0.8248175182481752,
+        "value": 0.5372549019607843,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.592
       },
       {
-        "hex": "#484645",
-        "hue": 20.00000000000019,
-        "saturation": 0.04166666666666671,
-        "value": 0.2823529411764706,
-        "percentage": 4.3
+        "hex": "#172d42",
+        "hue": 209.30232558139537,
+        "saturation": 0.6515151515151515,
+        "value": 0.25882352941176473,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.455
+      },
+      {
+        "hex": "#321816",
+        "hue": 4.285714285714286,
+        "saturation": 0.56,
+        "value": 0.19607843137254902,
+        "percentage": 0.5,
+        "group": "dark",
+        "score": 0.451
+      },
+      {
+        "hex": "#e59049",
+        "hue": 27.307692307692307,
+        "saturation": 0.6812227074235808,
+        "value": 0.8980392156862745,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.531
       }
     ]
   },
@@ -66,52 +96,82 @@
     "accession": "2007.1.1711",
     "theme": "Nature",
     "image": "../paintings/nature/2007.1.1711.jpg",
-    "plotColour": "#5e4832",
-    "hue": 30,
-    "saturation": 0.4680851063829788,
-    "value": 0.3686274509803922,
+    "plotColour": "#c68816",
+    "hue": 38.86363636363637,
+    "saturation": 0.8888888888888888,
+    "value": 0.7764705882352941,
     "dominantColours": [
       {
-        "hex": "#5e4832",
-        "hue": 30,
-        "saturation": 0.4680851063829788,
-        "value": 0.3686274509803922,
-        "percentage": 9.6
+        "hex": "#c68816",
+        "hue": 38.86363636363637,
+        "saturation": 0.8888888888888888,
+        "value": 0.7764705882352941,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.683
       },
       {
-        "hex": "#45342c",
-        "hue": 19.200000000000003,
-        "saturation": 0.3623188405797101,
-        "value": 0.27058823529411763,
-        "percentage": 9.5
+        "hex": "#ad4e1a",
+        "hue": 21.224489795918366,
+        "saturation": 0.8497109826589596,
+        "value": 0.6784313725490196,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.637
       },
       {
-        "hex": "#332b2a",
-        "hue": 6.666666666666687,
-        "saturation": 0.17647058823529418,
-        "value": 0.2,
-        "percentage": 8.7
+        "hex": "#d8ac3c",
+        "hue": 43.07692307692308,
+        "saturation": 0.7222222222222223,
+        "value": 0.8470588235294118,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.609
       },
       {
-        "hex": "#2a1f1e",
+        "hex": "#84501a",
+        "hue": 30.56603773584905,
+        "saturation": 0.8030303030303031,
+        "value": 0.5176470588235295,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.571
+      },
+      {
+        "hex": "#8f5a34",
+        "hue": 25.054945054945062,
+        "saturation": 0.6363636363636364,
+        "value": 0.5607843137254902,
+        "percentage": 0.5,
+        "group": "medium",
+        "score": 0.528
+      },
+      {
+        "hex": "#441814",
         "hue": 5,
-        "saturation": 0.2857142857142857,
-        "value": 0.16470588235294117,
-        "percentage": 6.3
+        "saturation": 0.7058823529411765,
+        "value": 0.26666666666666666,
+        "percentage": 0.1,
+        "group": "dark",
+        "score": 0.469
       },
       {
-        "hex": "#4c4231",
-        "hue": 37.77777777777779,
-        "saturation": 0.3552631578947368,
-        "value": 0.2980392156862745,
-        "percentage": 5.7
+        "hex": "#141732",
+        "hue": 234,
+        "saturation": 0.6,
+        "value": 0.19607843137254902,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.461
       },
       {
-        "hex": "#1d1819",
-        "hue": 348,
-        "saturation": 0.1724137931034483,
-        "value": 0.11372549019607843,
-        "percentage": 5.2
+        "hex": "#cdac5c",
+        "hue": 42.47787610619469,
+        "saturation": 0.551219512195122,
+        "value": 0.803921568627451,
+        "percentage": 0.1,
+        "group": "fallback",
+        "score": 0.449
       }
     ]
   },
@@ -124,52 +184,82 @@
     "accession": "2007.1.2775",
     "theme": "Nature",
     "image": "../paintings/nature/2007.1.2775.jpg",
-    "plotColour": "#342e2b",
-    "hue": 19.999999999999986,
-    "saturation": 0.17307692307692302,
-    "value": 0.20392156862745098,
+    "plotColour": "#c1311a",
+    "hue": 8.263473053892218,
+    "saturation": 0.8652849740932643,
+    "value": 0.7568627450980392,
     "dominantColours": [
       {
-        "hex": "#342e2b",
-        "hue": 19.999999999999986,
-        "saturation": 0.17307692307692302,
-        "value": 0.20392156862745098,
-        "percentage": 19.3
+        "hex": "#c1311a",
+        "hue": 8.263473053892218,
+        "saturation": 0.8652849740932643,
+        "value": 0.7568627450980392,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.665
       },
       {
-        "hex": "#43362d",
-        "hue": 24.54545454545454,
-        "saturation": 0.3283582089552239,
-        "value": 0.2627450980392157,
-        "percentage": 8.3
+        "hex": "#8f1f17",
+        "hue": 4,
+        "saturation": 0.8391608391608392,
+        "value": 0.5607843137254902,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.602
       },
       {
-        "hex": "#1b1817",
-        "hue": 15,
-        "saturation": 0.14814814814814814,
-        "value": 0.10588235294117647,
-        "percentage": 6
+        "hex": "#d46040",
+        "hue": 12.972972972972974,
+        "saturation": 0.6981132075471699,
+        "value": 0.8313725490196079,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.592
       },
       {
-        "hex": "#c0ad8e",
-        "hue": 37.2,
-        "saturation": 0.26041666666666663,
-        "value": 0.7529411764705882,
-        "percentage": 5.4
-      },
-      {
-        "hex": "#5d4833",
+        "hex": "#be7e3e",
         "hue": 30,
-        "saturation": 0.4516129032258064,
-        "value": 0.36470588235294116,
-        "percentage": 5.4
+        "saturation": 0.6736842105263158,
+        "value": 0.7450980392156863,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.557
       },
       {
-        "hex": "#776248",
-        "hue": 33.19148936170214,
-        "saturation": 0.39495798319327735,
-        "value": 0.4666666666666667,
-        "percentage": 5
+        "hex": "#7c4a31",
+        "hue": 20.000000000000007,
+        "saturation": 0.6048387096774193,
+        "value": 0.48627450980392156,
+        "percentage": 0.2,
+        "group": "medium",
+        "score": 0.525
+      },
+      {
+        "hex": "#401815",
+        "hue": 4.186046511627907,
+        "saturation": 0.671875,
+        "value": 0.25098039215686274,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.464
+      },
+      {
+        "hex": "#313819",
+        "hue": 73.54838709677418,
+        "saturation": 0.5535714285714286,
+        "value": 0.2196078431372549,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.439
+      },
+      {
+        "hex": "#d58f6a",
+        "hue": 20.747663551401867,
+        "saturation": 0.5023474178403756,
+        "value": 0.8352941176470589,
+        "percentage": 0.7,
+        "group": "fallback",
+        "score": 0.437
       }
     ]
   },
@@ -182,52 +272,82 @@
     "accession": "2009.6.7",
     "theme": "Nature",
     "image": "../paintings/nature/2009.6.7.jpg",
-    "plotColour": "#a9754b",
-    "hue": 26.80851063829787,
-    "saturation": 0.5562130177514792,
-    "value": 0.6627450980392157,
+    "plotColour": "#c45819",
+    "hue": 22.105263157894736,
+    "saturation": 0.8724489795918368,
+    "value": 0.7686274509803922,
     "dominantColours": [
       {
-        "hex": "#a9754b",
-        "hue": 26.80851063829787,
-        "saturation": 0.5562130177514792,
-        "value": 0.6627450980392157,
-        "percentage": 5.3
+        "hex": "#c45819",
+        "hue": 22.105263157894736,
+        "saturation": 0.8724489795918368,
+        "value": 0.7686274509803922,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.672
       },
       {
-        "hex": "#46322e",
-        "hue": 9.999999999999998,
-        "saturation": 0.3428571428571429,
-        "value": 0.27450980392156865,
-        "percentage": 5.3
+        "hex": "#d39c25",
+        "hue": 41.0344827586207,
+        "saturation": 0.8246445497630331,
+        "value": 0.8274509803921568,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.66
       },
       {
-        "hex": "#322c2c",
-        "hue": 0,
-        "saturation": 0.12,
-        "value": 0.19607843137254902,
-        "percentage": 4.7
+        "hex": "#a0281e",
+        "hue": 4.615384615384616,
+        "saturation": 0.8125,
+        "value": 0.6274509803921569,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.604
       },
       {
-        "hex": "#bd905e",
-        "hue": 31.578947368421044,
-        "saturation": 0.5026455026455027,
-        "value": 0.7411764705882353,
-        "percentage": 3.5
+        "hex": "#926819",
+        "hue": 39.17355371900827,
+        "saturation": 0.8287671232876712,
+        "value": 0.5725490196078431,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.599
       },
       {
-        "hex": "#2c1e1c",
-        "hue": 7.5,
-        "saturation": 0.36363636363636365,
-        "value": 0.17254901960784313,
-        "percentage": 3.4
+        "hex": "#08323a",
+        "hue": 189.60000000000002,
+        "saturation": 0.8620689655172413,
+        "value": 0.22745098039215686,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.529
       },
       {
-        "hex": "#1c191b",
-        "hue": 320,
-        "saturation": 0.10714285714285714,
-        "value": 0.10980392156862745,
-        "percentage": 2.9
+        "hex": "#10192f",
+        "hue": 222.58064516129033,
+        "saturation": 0.6595744680851064,
+        "value": 0.1843137254901961,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.483
+      },
+      {
+        "hex": "#94451a",
+        "hue": 21.14754098360655,
+        "saturation": 0.8243243243243243,
+        "value": 0.5803921568627451,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.516
+      },
+      {
+        "hex": "#d28046",
+        "hue": 24.857142857142854,
+        "saturation": 0.6666666666666666,
+        "value": 0.8235294117647058,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.506
       }
     ]
   },
@@ -240,52 +360,82 @@
     "accession": "2007.1.3344",
     "theme": "Nature",
     "image": "../paintings/nature/2007.1.3344.jpg",
-    "plotColour": "#c3925c",
-    "hue": 31.45631067961165,
-    "saturation": 0.5282051282051282,
-    "value": 0.7647058823529411,
+    "plotColour": "#9e4619",
+    "hue": 20.30075187969925,
+    "saturation": 0.8417721518987342,
+    "value": 0.6196078431372549,
     "dominantColours": [
       {
-        "hex": "#c3925c",
-        "hue": 31.45631067961165,
-        "saturation": 0.5282051282051282,
-        "value": 0.7647058823529411,
-        "percentage": 12.3
+        "hex": "#9e4619",
+        "hue": 20.30075187969925,
+        "saturation": 0.8417721518987342,
+        "value": 0.6196078431372549,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.618
       },
       {
-        "hex": "#a66233",
-        "hue": 24.52173913043478,
-        "saturation": 0.6927710843373494,
+        "hex": "#ce9b3d",
+        "hue": 38.89655172413792,
+        "saturation": 0.703883495145631,
+        "value": 0.807843137254902,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.589
+      },
+      {
+        "hex": "#a56938",
+        "hue": 26.97247706422018,
+        "saturation": 0.6606060606060606,
+        "value": 0.6470588235294118,
+        "percentage": 6.1,
+        "group": "colourful",
+        "score": 0.537
+      },
+      {
+        "hex": "#6d2e18",
+        "hue": 15.529411764705884,
+        "saturation": 0.7798165137614679,
+        "value": 0.42745098039215684,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.536
+      },
+      {
+        "hex": "#e1b373",
+        "hue": 34.9090909090909,
+        "saturation": 0.4888888888888889,
+        "value": 0.8823529411764706,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.441
+      },
+      {
+        "hex": "#7c4c33",
+        "hue": 20.54794520547945,
+        "saturation": 0.5887096774193548,
+        "value": 0.48627450980392156,
+        "percentage": 0.2,
+        "group": "fallback",
+        "score": 0.387
+      },
+      {
+        "hex": "#7b3833",
+        "hue": 4.166666666666663,
+        "saturation": 0.5853658536585366,
+        "value": 0.4823529411764706,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.384
+      },
+      {
+        "hex": "#a68b5c",
+        "hue": 38.1081081081081,
+        "saturation": 0.44578313253012053,
         "value": 0.6509803921568628,
-        "percentage": 9.3
-      },
-      {
-        "hex": "#ad7645",
-        "hue": 28.269230769230774,
-        "saturation": 0.6011560693641619,
-        "value": 0.6784313725490196,
-        "percentage": 7.9
-      },
-      {
-        "hex": "#c28d4c",
-        "hue": 33.05084745762712,
-        "saturation": 0.6082474226804123,
-        "value": 0.7607843137254902,
-        "percentage": 7.6
-      },
-      {
-        "hex": "#ba7d47",
-        "hue": 28.17391304347826,
-        "saturation": 0.6182795698924731,
-        "value": 0.7294117647058823,
-        "percentage": 6.4
-      },
-      {
-        "hex": "#d0a464",
-        "hue": 35.55555555555556,
-        "saturation": 0.5192307692307693,
-        "value": 0.8156862745098039,
-        "percentage": 5.2
+        "percentage": 0.1,
+        "group": "fallback",
+        "score": 0.364
       }
     ]
   },
@@ -298,52 +448,82 @@
     "accession": "2007.1.2870",
     "theme": "Nature",
     "image": "../paintings/nature/2007.1.2870.jpg",
-    "plotColour": "#44342d",
-    "hue": 18.260869565217384,
-    "saturation": 0.338235294117647,
-    "value": 0.26666666666666666,
+    "plotColour": "#d46e39",
+    "hue": 20.516129032258064,
+    "saturation": 0.7311320754716981,
+    "value": 0.8313725490196079,
     "dominantColours": [
       {
-        "hex": "#44342d",
-        "hue": 18.260869565217384,
-        "saturation": 0.338235294117647,
-        "value": 0.26666666666666666,
-        "percentage": 6.6
+        "hex": "#d46e39",
+        "hue": 20.516129032258064,
+        "saturation": 0.7311320754716981,
+        "value": 0.8313725490196079,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.61
       },
       {
-        "hex": "#322c2c",
-        "hue": 0,
-        "saturation": 0.12,
+        "hex": "#dcab4d",
+        "hue": 39.44055944055944,
+        "saturation": 0.65,
+        "value": 0.8627450980392157,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.573
+      },
+      {
+        "hex": "#a26839",
+        "hue": 26.857142857142858,
+        "saturation": 0.6481481481481481,
+        "value": 0.6352941176470588,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.515
+      },
+      {
+        "hex": "#d4b46d",
+        "hue": 41.359223300970875,
+        "saturation": 0.48584905660377364,
+        "value": 0.8313725490196079,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.475
+      },
+      {
+        "hex": "#8f4d46",
+        "hue": 5.753424657534238,
+        "saturation": 0.5104895104895104,
+        "value": 0.5607843137254902,
+        "percentage": 0.1,
+        "group": "medium",
+        "score": 0.495
+      },
+      {
+        "hex": "#3f221a",
+        "hue": 12.972972972972974,
+        "saturation": 0.5873015873015873,
+        "value": 0.24705882352941178,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.44
+      },
+      {
+        "hex": "#32191e",
+        "hue": 348,
+        "saturation": 0.5,
         "value": 0.19607843137254902,
-        "percentage": 5.3
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.431
       },
       {
-        "hex": "#f2eada",
-        "hue": 40,
-        "saturation": 0.09917355371900827,
-        "value": 0.9490196078431372,
-        "percentage": 4.9
-      },
-      {
-        "hex": "#2a1e1d",
-        "hue": 4.615384615384616,
-        "saturation": 0.30952380952380953,
-        "value": 0.16470588235294117,
-        "percentage": 4.8
-      },
-      {
-        "hex": "#1f191a",
-        "hue": 350,
-        "saturation": 0.1935483870967742,
-        "value": 0.12156862745098039,
-        "percentage": 4.3
-      },
-      {
-        "hex": "#8e7b5e",
-        "hue": 36.24999999999999,
-        "saturation": 0.3380281690140845,
-        "value": 0.5568627450980392,
-        "percentage": 4.2
+        "hex": "#c18464",
+        "hue": 20.645161290322587,
+        "saturation": 0.48186528497409326,
+        "value": 0.7568627450980392,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.406
       }
     ]
   },
@@ -356,52 +536,82 @@
     "accession": "2007.1.1126",
     "theme": "Nature",
     "image": "../paintings/nature/2007.1.1126.jpg",
-    "plotColour": "#c4b9ac",
-    "hue": 32.49999999999996,
-    "saturation": 0.12244897959183673,
-    "value": 0.7686274509803922,
+    "plotColour": "#c78d18",
+    "hue": 40.114285714285714,
+    "saturation": 0.8793969849246231,
+    "value": 0.7803921568627451,
     "dominantColours": [
       {
-        "hex": "#c4b9ac",
-        "hue": 32.49999999999996,
-        "saturation": 0.12244897959183673,
-        "value": 0.7686274509803922,
-        "percentage": 8.8
+        "hex": "#c78d18",
+        "hue": 40.114285714285714,
+        "saturation": 0.8793969849246231,
+        "value": 0.7803921568627451,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.679
       },
       {
-        "hex": "#c0a776",
-        "hue": 39.729729729729726,
-        "saturation": 0.38541666666666663,
-        "value": 0.7529411764705882,
-        "percentage": 8.2
+        "hex": "#9d5e1a",
+        "hue": 31.145038167938935,
+        "saturation": 0.8343949044585988,
+        "value": 0.615686274509804,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.613
       },
       {
-        "hex": "#1a1716",
-        "hue": 15,
-        "saturation": 0.15384615384615385,
-        "value": 0.10196078431372549,
-        "percentage": 5.5
+        "hex": "#8c2a1d",
+        "hue": 7.027027027027026,
+        "saturation": 0.7928571428571429,
+        "value": 0.5490196078431373,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.573
       },
       {
-        "hex": "#d0c6ba",
-        "hue": 32.727272727272755,
-        "saturation": 0.10576923076923081,
-        "value": 0.8156862745098039,
-        "percentage": 5.3
+        "hex": "#d1a74b",
+        "hue": 41.194029850746276,
+        "saturation": 0.6411483253588516,
+        "value": 0.8196078431372549,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.558
       },
       {
-        "hex": "#ab905e",
-        "hue": 38.961038961038966,
-        "saturation": 0.45029239766081863,
-        "value": 0.6705882352941176,
-        "percentage": 3.9
+        "hex": "#461714",
+        "hue": 3.5999999999999996,
+        "saturation": 0.7142857142857143,
+        "value": 0.27450980392156865,
+        "percentage": 0.2,
+        "group": "dark",
+        "score": 0.469
       },
       {
-        "hex": "#bfa363",
-        "hue": 41.7391304347826,
-        "saturation": 0.4816753926701571,
-        "value": 0.7490196078431373,
-        "percentage": 3.5
+        "hex": "#352317",
+        "hue": 24.000000000000004,
+        "saturation": 0.5660377358490566,
+        "value": 0.20784313725490197,
+        "percentage": 1.1,
+        "group": "dark",
+        "score": 0.451
+      },
+      {
+        "hex": "#a57b37",
+        "hue": 37.09090909090909,
+        "saturation": 0.6666666666666666,
+        "value": 0.6470588235294118,
+        "percentage": 0.8,
+        "group": "fallback",
+        "score": 0.464
+      },
+      {
+        "hex": "#6e4318",
+        "hue": 30,
+        "saturation": 0.7818181818181819,
+        "value": 0.43137254901960786,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.46
       }
     ]
   },
@@ -414,52 +624,82 @@
     "accession": "2007.1.1665",
     "theme": "Nature",
     "image": "../paintings/nature/2007.1.1665.jpg",
-    "plotColour": "#d6c2a9",
-    "hue": 33.33333333333332,
-    "saturation": 0.21028037383177575,
+    "plotColour": "#d6a818",
+    "hue": 45.473684210526315,
+    "saturation": 0.8878504672897196,
     "value": 0.8392156862745098,
     "dominantColours": [
       {
-        "hex": "#d6c2a9",
-        "hue": 33.33333333333332,
-        "saturation": 0.21028037383177575,
+        "hex": "#d6a818",
+        "hue": 45.473684210526315,
+        "saturation": 0.8878504672897196,
         "value": 0.8392156862745098,
-        "percentage": 7.2
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.698
       },
       {
-        "hex": "#c0ac8f",
-        "hue": 35.510204081632665,
-        "saturation": 0.2552083333333333,
+        "hex": "#c03c1d",
+        "hue": 11.411042944785276,
+        "saturation": 0.8489583333333333,
         "value": 0.7529411764705882,
-        "percentage": 5.1
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.655
       },
       {
-        "hex": "#302e2f",
-        "hue": 329.9999999999999,
-        "saturation": 0.041666666666666664,
-        "value": 0.18823529411764706,
-        "percentage": 4.9
+        "hex": "#d07f35",
+        "hue": 28.645161290322584,
+        "saturation": 0.7451923076923076,
+        "value": 0.8156862745098039,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.614
       },
       {
-        "hex": "#d4ba92",
-        "hue": 36.36363636363635,
-        "saturation": 0.31132075471698123,
-        "value": 0.8313725490196079,
-        "percentage": 3.5
+        "hex": "#a46b27",
+        "hue": 32.64,
+        "saturation": 0.7621951219512195,
+        "value": 0.6431372549019608,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.58
       },
       {
-        "hex": "#bfa67a",
-        "hue": 38.2608695652174,
-        "saturation": 0.3612565445026178,
-        "value": 0.7490196078431373,
-        "percentage": 3.5
+        "hex": "#8a1c27",
+        "hue": 354,
+        "saturation": 0.7971014492753623,
+        "value": 0.5411764705882353,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.582
       },
       {
-        "hex": "#776146",
-        "hue": 33.06122448979591,
-        "saturation": 0.4117647058823529,
-        "value": 0.4666666666666667,
-        "percentage": 3.3
+        "hex": "#8d3a21",
+        "hue": 13.888888888888886,
+        "saturation": 0.7659574468085106,
+        "value": 0.5529411764705883,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.565
+      },
+      {
+        "hex": "#152a43",
+        "hue": 212.60869565217394,
+        "saturation": 0.6865671641791046,
+        "value": 0.2627450980392157,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.464
+      },
+      {
+        "hex": "#432518",
+        "hue": 18.139534883720934,
+        "saturation": 0.6417910447761194,
+        "value": 0.2627450980392157,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.451
       }
     ]
   },
@@ -472,52 +712,82 @@
     "accession": "2007.1.2884",
     "theme": "Nature",
     "image": "../paintings/nature/2007.1.2884.jpg",
-    "plotColour": "#47322c",
-    "hue": 13.33333333333333,
-    "saturation": 0.3802816901408451,
-    "value": 0.2784313725490196,
+    "plotColour": "#c09418",
+    "hue": 44.28571428571429,
+    "saturation": 0.875,
+    "value": 0.7529411764705882,
     "dominantColours": [
       {
-        "hex": "#47322c",
-        "hue": 13.33333333333333,
-        "saturation": 0.3802816901408451,
-        "value": 0.2784313725490196,
-        "percentage": 7
+        "hex": "#c09418",
+        "hue": 44.28571428571429,
+        "saturation": 0.875,
+        "value": 0.7529411764705882,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.669
       },
       {
-        "hex": "#5e4632",
-        "hue": 27.272727272727277,
-        "saturation": 0.4680851063829788,
-        "value": 0.3686274509803922,
-        "percentage": 6
+        "hex": "#d25439",
+        "hue": 10.588235294117645,
+        "saturation": 0.7285714285714285,
+        "value": 0.8235294117647058,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.607
       },
       {
-        "hex": "#2e1d1b",
-        "hue": 6.315789473684211,
-        "saturation": 0.41304347826086957,
-        "value": 0.1803921568627451,
-        "percentage": 5.3
+        "hex": "#97661a",
+        "hue": 36.480000000000004,
+        "saturation": 0.8278145695364238,
+        "value": 0.592156862745098,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.603
       },
       {
-        "hex": "#776048",
-        "hue": 30.638297872340424,
-        "saturation": 0.39495798319327735,
-        "value": 0.4666666666666667,
-        "percentage": 5
+        "hex": "#d28e3d",
+        "hue": 32.61744966442953,
+        "saturation": 0.7095238095238094,
+        "value": 0.8235294117647058,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.596
       },
       {
-        "hex": "#1a1819",
-        "hue": 330,
-        "saturation": 0.07692307692307693,
-        "value": 0.10196078431372549,
-        "percentage": 4.5
+        "hex": "#893926",
+        "hue": 11.515151515151521,
+        "saturation": 0.7226277372262773,
+        "value": 0.5372549019607843,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.567
       },
       {
-        "hex": "#4b4430",
-        "hue": 44.444444444444436,
-        "saturation": 0.36000000000000004,
-        "value": 0.29411764705882354,
-        "percentage": 4.5
+        "hex": "#461812",
+        "hue": 6.9230769230769225,
+        "saturation": 0.7428571428571429,
+        "value": 0.27450980392156865,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.477
+      },
+      {
+        "hex": "#362017",
+        "hue": 17.41935483870968,
+        "saturation": 0.5740740740740741,
+        "value": 0.21176470588235294,
+        "percentage": 1.3,
+        "group": "dark",
+        "score": 0.453
+      },
+      {
+        "hex": "#c0af38",
+        "hue": 52.5,
+        "saturation": 0.7083333333333334,
+        "value": 0.7529411764705882,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.507
       }
     ]
   },
@@ -530,52 +800,82 @@
     "accession": "L2010.8.7",
     "theme": "Nature",
     "image": "../paintings/nature/L2010.8.7.jpg",
-    "plotColour": "#5d492f",
-    "hue": 33.91304347826087,
-    "saturation": 0.49462365591397844,
-    "value": 0.36470588235294116,
+    "plotColour": "#af833c",
+    "hue": 37.043478260869556,
+    "saturation": 0.6571428571428571,
+    "value": 0.6862745098039216,
     "dominantColours": [
       {
-        "hex": "#1b1819",
-        "hue": 340.00000000000006,
-        "saturation": 0.1111111111111111,
-        "value": 0.10588235294117647,
-        "percentage": 10.8
+        "hex": "#af833c",
+        "hue": 37.043478260869556,
+        "saturation": 0.6571428571428571,
+        "value": 0.6862745098039216,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.533
       },
       {
-        "hex": "#5d492f",
-        "hue": 33.91304347826087,
-        "saturation": 0.49462365591397844,
-        "value": 0.36470588235294116,
-        "percentage": 6
+        "hex": "#836527",
+        "hue": 40.43478260869565,
+        "saturation": 0.7022900763358778,
+        "value": 0.5137254901960784,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.515
       },
       {
-        "hex": "#322c2a",
-        "hue": 15,
-        "saturation": 0.16,
-        "value": 0.19607843137254902,
-        "percentage": 5.6
+        "hex": "#783826",
+        "hue": 13.170731707317074,
+        "saturation": 0.6833333333333332,
+        "value": 0.47058823529411764,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.493
       },
       {
-        "hex": "#31281f",
-        "hue": 29.999999999999993,
-        "saturation": 0.3673469387755102,
-        "value": 0.19215686274509805,
-        "percentage": 5.1
+        "hex": "#a16046",
+        "hue": 17.14285714285714,
+        "saturation": 0.5652173913043478,
+        "value": 0.6313725490196078,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.469
       },
       {
-        "hex": "#b8aea3",
-        "hue": 31.428571428571463,
-        "saturation": 0.11413043478260876,
-        "value": 0.7215686274509804,
-        "percentage": 5.1
+        "hex": "#331914",
+        "hue": 9.677419354838708,
+        "saturation": 0.607843137254902,
+        "value": 0.2,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.462
       },
       {
-        "hex": "#5c4d46",
-        "hue": 19.090909090909065,
-        "saturation": 0.23913043478260862,
-        "value": 0.3607843137254902,
-        "percentage": 5.1
+        "hex": "#412d19",
+        "hue": 30.000000000000007,
+        "saturation": 0.6153846153846154,
+        "value": 0.2549019607843137,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.445
+      },
+      {
+        "hex": "#b79b5d",
+        "hue": 41.33333333333333,
+        "saturation": 0.49180327868852464,
+        "value": 0.7176470588235294,
+        "percentage": 0.1,
+        "group": "fallback",
+        "score": 0.401
+      },
+      {
+        "hex": "#6d5734",
+        "hue": 36.842105263157904,
+        "saturation": 0.5229357798165137,
+        "value": 0.42745098039215684,
+        "percentage": 2.5,
+        "group": "fallback",
+        "score": 0.35
       }
     ]
   },
@@ -588,52 +888,82 @@
     "accession": "2008.15.3",
     "theme": "Family",
     "image": "../paintings/family/2008.15.3.jpg",
-    "plotColour": "#736162",
-    "hue": 356.66666666666663,
-    "saturation": 0.15652173913043485,
-    "value": 0.45098039215686275,
+    "plotColour": "#cd8a06",
+    "hue": 39.79899497487436,
+    "saturation": 0.9707317073170731,
+    "value": 0.803921568627451,
     "dominantColours": [
       {
-        "hex": "#322e2d",
-        "hue": 11.999999999999964,
-        "saturation": 0.09999999999999992,
-        "value": 0.19607843137254902,
-        "percentage": 6.5
+        "hex": "#cd8a06",
+        "hue": 39.79899497487436,
+        "saturation": 0.9707317073170731,
+        "value": 0.803921568627451,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.735
       },
       {
-        "hex": "#65595f",
-        "hue": 329.99999999999994,
-        "saturation": 0.11881188118811882,
-        "value": 0.396078431372549,
-        "percentage": 6
+        "hex": "#da6216",
+        "hue": 23.265306122448987,
+        "saturation": 0.8990825688073394,
+        "value": 0.8549019607843137,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.708
       },
       {
-        "hex": "#736162",
-        "hue": 356.66666666666663,
-        "saturation": 0.15652173913043485,
-        "value": 0.45098039215686275,
-        "percentage": 4.6
+        "hex": "#9c6c05",
+        "hue": 40.9271523178808,
+        "saturation": 0.9679487179487178,
+        "value": 0.611764705882353,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.685
       },
       {
-        "hex": "#5e4e5d",
-        "hue": 303.75000000000006,
-        "saturation": 0.1702127659574468,
-        "value": 0.3686274509803922,
-        "percentage": 4
+        "hex": "#827e03",
+        "hue": 58.110236220472444,
+        "saturation": 0.9769230769230769,
+        "value": 0.5098039215686274,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.665
       },
       {
-        "hex": "#746474",
-        "hue": 300,
-        "saturation": 0.13793103448275862,
-        "value": 0.4549019607843137,
-        "percentage": 3.9
+        "hex": "#594e07",
+        "hue": 51.951219512195124,
+        "saturation": 0.9213483146067415,
+        "value": 0.34901960784313724,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.504
       },
       {
-        "hex": "#5e494a",
-        "hue": 357.1428571428571,
-        "saturation": 0.22340425531914904,
-        "value": 0.3686274509803922,
-        "percentage": 3.6
+        "hex": "#452313",
+        "hue": 19.200000000000006,
+        "saturation": 0.7246376811594202,
+        "value": 0.27058823529411763,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.473
+      },
+      {
+        "hex": "#e8ae36",
+        "hue": 40.44943820224719,
+        "saturation": 0.7672413793103448,
+        "value": 0.9098039215686274,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.573
+      },
+      {
+        "hex": "#b48725",
+        "hue": 41.11888111888111,
+        "saturation": 0.7944444444444444,
+        "value": 0.7058823529411765,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.534
       }
     ]
   },
@@ -646,52 +976,82 @@
     "accession": "2007.1.1633",
     "theme": "Family",
     "image": "../paintings/family/2007.1.1633.jpg",
-    "plotColour": "#46342c",
-    "hue": 18.461538461538456,
-    "saturation": 0.3714285714285715,
-    "value": 0.27450980392156865,
+    "plotColour": "#088186",
+    "hue": 182.38095238095238,
+    "saturation": 0.9402985074626866,
+    "value": 0.5254901960784314,
     "dominantColours": [
       {
-        "hex": "#46342c",
-        "hue": 18.461538461538456,
-        "saturation": 0.3714285714285715,
-        "value": 0.27450980392156865,
-        "percentage": 8.4
+        "hex": "#088186",
+        "hue": 182.38095238095238,
+        "saturation": 0.9402985074626866,
+        "value": 0.5254901960784314,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.649
       },
       {
-        "hex": "#332f2b",
-        "hue": 30,
-        "saturation": 0.1568627450980392,
-        "value": 0.2,
-        "percentage": 7.2
+        "hex": "#642a04",
+        "hue": 23.75,
+        "saturation": 0.96,
+        "value": 0.39215686274509803,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.626
       },
       {
-        "hex": "#4a4332",
-        "hue": 42.49999999999999,
-        "saturation": 0.3243243243243244,
-        "value": 0.2901960784313726,
-        "percentage": 6.6
+        "hex": "#b46f2b",
+        "hue": 29.781021897810213,
+        "saturation": 0.7611111111111112,
+        "value": 0.7058823529411765,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.595
       },
       {
-        "hex": "#5e4634",
-        "hue": 25.71428571428572,
-        "saturation": 0.4468085106382979,
-        "value": 0.3686274509803922,
-        "percentage": 5.4
+        "hex": "#299ea8",
+        "hue": 184.7244094488189,
+        "saturation": 0.7559523809523809,
+        "value": 0.6588235294117647,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.58
       },
       {
-        "hex": "#1d1918",
-        "hue": 12,
-        "saturation": 0.1724137931034483,
-        "value": 0.11372549019607843,
-        "percentage": 3.3
+        "hex": "#321913",
+        "hue": 11.612903225806452,
+        "saturation": 0.62,
+        "value": 0.19607843137254902,
+        "percentage": 0.1,
+        "group": "dark",
+        "score": 0.468
       },
       {
-        "hex": "#764633",
-        "hue": 17.014925373134332,
-        "saturation": 0.5677966101694916,
-        "value": 0.4627450980392157,
-        "percentage": 3.3
+        "hex": "#e79756",
+        "hue": 26.896551724137932,
+        "saturation": 0.6277056277056277,
+        "value": 0.9058823529411765,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.509
+      },
+      {
+        "hex": "#e8c85e",
+        "hue": 46.086956521739125,
+        "saturation": 0.5948275862068966,
+        "value": 0.9098039215686274,
+        "percentage": 0.1,
+        "group": "fallback",
+        "score": 0.495
+      },
+      {
+        "hex": "#6c2b18",
+        "hue": 13.571428571428573,
+        "saturation": 0.7777777777777778,
+        "value": 0.4235294117647059,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.456
       }
     ]
   },
@@ -704,52 +1064,82 @@
     "accession": "2007.1.168",
     "theme": "Family",
     "image": "../paintings/family/2007.1.168.jpg",
-    "plotColour": "#464a5e",
-    "hue": 230.00000000000003,
-    "saturation": 0.2553191489361702,
-    "value": 0.3686274509803922,
+    "plotColour": "#b2602b",
+    "hue": 23.55555555555556,
+    "saturation": 0.7584269662921347,
+    "value": 0.6980392156862745,
     "dominantColours": [
       {
-        "hex": "#464a5e",
-        "hue": 230.00000000000003,
-        "saturation": 0.2553191489361702,
-        "value": 0.3686274509803922,
-        "percentage": 12.9
+        "hex": "#b2602b",
+        "hue": 23.55555555555556,
+        "saturation": 0.7584269662921347,
+        "value": 0.6980392156862745,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.592
       },
       {
-        "hex": "#45434b",
-        "hue": 254.99999999999994,
-        "saturation": 0.10666666666666666,
-        "value": 0.29411764705882354,
-        "percentage": 12.6
+        "hex": "#c03a40",
+        "hue": 357.3134328358209,
+        "saturation": 0.6979166666666667,
+        "value": 0.7529411764705882,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.572
       },
       {
-        "hex": "#615b62",
-        "hue": 291.42857142857133,
-        "saturation": 0.07142857142857147,
-        "value": 0.3843137254901961,
-        "percentage": 7.2
+        "hex": "#2c5293",
+        "hue": 217.86407766990288,
+        "saturation": 0.7006802721088435,
+        "value": 0.5764705882352941,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.529
       },
       {
-        "hex": "#353746",
-        "hue": 232.94117647058826,
-        "saturation": 0.24285714285714288,
+        "hex": "#ae933e",
+        "hue": 45.53571428571427,
+        "saturation": 0.6436781609195402,
+        "value": 0.6823529411764706,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.525
+      },
+      {
+        "hex": "#83633a",
+        "hue": 33.6986301369863,
+        "saturation": 0.5572519083969466,
+        "value": 0.5137254901960784,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.534
+      },
+      {
+        "hex": "#2b3f59",
+        "hue": 213.91304347826087,
+        "saturation": 0.5168539325842696,
+        "value": 0.34901960784313724,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.383
+      },
+      {
+        "hex": "#2a2c46",
+        "hue": 235.71428571428572,
+        "saturation": 0.4000000000000001,
         "value": 0.27450980392156865,
-        "percentage": 6.2
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.374
       },
       {
-        "hex": "#606174",
-        "hue": 237,
-        "saturation": 0.1724137931034483,
-        "value": 0.4549019607843137,
-        "percentage": 4.6
-      },
-      {
-        "hex": "#75625e",
-        "hue": 10.434782608695658,
-        "saturation": 0.1965811965811965,
-        "value": 0.4588235294117647,
-        "percentage": 4.1
+        "hex": "#c0775d",
+        "hue": 15.757575757575763,
+        "saturation": 0.515625,
+        "value": 0.7529411764705882,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.42
       }
     ]
   },
@@ -762,52 +1152,82 @@
     "accession": "2007.1.391",
     "theme": "Family",
     "image": "../paintings/family/2007.1.391.jpg",
-    "plotColour": "#dbbc8d",
-    "hue": 36.15384615384617,
-    "saturation": 0.35616438356164376,
-    "value": 0.8588235294117647,
+    "plotColour": "#9c0108",
+    "hue": 357.2903225806452,
+    "saturation": 0.9935897435897436,
+    "value": 0.611764705882353,
     "dominantColours": [
       {
-        "hex": "#dbbc8d",
-        "hue": 36.15384615384617,
-        "saturation": 0.35616438356164376,
-        "value": 0.8588235294117647,
-        "percentage": 16.6
+        "hex": "#9c0108",
+        "hue": 357.2903225806452,
+        "saturation": 0.9935897435897436,
+        "value": 0.611764705882353,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.699
       },
       {
-        "hex": "#d9b87e",
-        "hue": 38.24175824175824,
-        "saturation": 0.4193548387096774,
-        "value": 0.8509803921568627,
-        "percentage": 6.8
+        "hex": "#da6b28",
+        "hue": 22.584269662921347,
+        "saturation": 0.8165137614678899,
+        "value": 0.8549019607843137,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.663
       },
       {
-        "hex": "#d2ad7c",
-        "hue": 34.186046511627914,
-        "saturation": 0.4095238095238095,
-        "value": 0.8235294117647058,
-        "percentage": 4.9
+        "hex": "#198db1",
+        "hue": 194.21052631578948,
+        "saturation": 0.8587570621468926,
+        "value": 0.6941176470588235,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.646
       },
       {
-        "hex": "#343343",
-        "hue": 243.75,
-        "saturation": 0.23880597014925373,
-        "value": 0.2627450980392157,
-        "percentage": 4.8
+        "hex": "#720610",
+        "hue": 354.44444444444446,
+        "saturation": 0.9473684210526316,
+        "value": 0.4470588235294118,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.633
       },
       {
-        "hex": "#d6ad8b",
-        "hue": 27.20000000000001,
-        "saturation": 0.35046728971962626,
-        "value": 0.8392156862745098,
-        "percentage": 3.6
+        "hex": "#8b3612",
+        "hue": 17.85123966942149,
+        "saturation": 0.8705035971223022,
+        "value": 0.5450980392156862,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.598
       },
       {
-        "hex": "#1f1b29",
-        "hue": 257.14285714285717,
-        "saturation": 0.3414634146341464,
-        "value": 0.1607843137254902,
-        "percentage": 3.3
+        "hex": "#48070f",
+        "hue": 352.61538461538464,
+        "saturation": 0.9027777777777777,
+        "value": 0.2823529411764706,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.522
+      },
+      {
+        "hex": "#121a47",
+        "hue": 230.94339622641508,
+        "saturation": 0.7464788732394366,
+        "value": 0.2784313725490196,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.476
+      },
+      {
+        "hex": "#ae272b",
+        "hue": 358.22222222222223,
+        "saturation": 0.7758620689655172,
+        "value": 0.6823529411764706,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.52
       }
     ]
   },
@@ -820,52 +1240,82 @@
     "accession": "2007.1.1076",
     "theme": "Family",
     "image": "../paintings/family/2007.1.1076.jpg",
-    "plotColour": "#a5938b",
-    "hue": 18.461538461538446,
-    "saturation": 0.1575757575757577,
-    "value": 0.6470588235294118,
+    "plotColour": "#c18c08",
+    "hue": 42.810810810810814,
+    "saturation": 0.9585492227979274,
+    "value": 0.7568627450980392,
     "dominantColours": [
       {
-        "hex": "#a5938b",
-        "hue": 18.461538461538446,
-        "saturation": 0.1575757575757577,
-        "value": 0.6470588235294118,
-        "percentage": 6.6
-      },
-      {
-        "hex": "#8e7c75",
-        "hue": 16.8,
-        "saturation": 0.17605633802816908,
-        "value": 0.5568627450980392,
-        "percentage": 4.8
-      },
-      {
-        "hex": "#752e1c",
-        "hue": 12.134831460674157,
-        "saturation": 0.7606837606837606,
-        "value": 0.4588235294117647,
-        "percentage": 3.6
-      },
-      {
-        "hex": "#746560",
-        "hue": 14.99999999999999,
-        "saturation": 0.1724137931034483,
-        "value": 0.4549019607843137,
-        "percentage": 3.3
-      },
-      {
-        "hex": "#777f88",
-        "hue": 211.76470588235296,
-        "saturation": 0.12499999999999997,
-        "value": 0.5333333333333333,
-        "percentage": 3.2
-      },
-      {
-        "hex": "#c1925e",
-        "hue": 31.515151515151512,
-        "saturation": 0.5129533678756476,
+        "hex": "#c18c08",
+        "hue": 42.810810810810814,
+        "saturation": 0.9585492227979274,
         "value": 0.7568627450980392,
-        "percentage": 3
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.716
+      },
+      {
+        "hex": "#b03118",
+        "hue": 9.868421052631579,
+        "saturation": 0.8636363636363636,
+        "value": 0.6901960784313725,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.648
+      },
+      {
+        "hex": "#cf7228",
+        "hue": 26.586826347305394,
+        "saturation": 0.8067632850241546,
+        "value": 0.8117647058823529,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.647
+      },
+      {
+        "hex": "#955615",
+        "hue": 30.468750000000007,
+        "saturation": 0.8590604026845637,
+        "value": 0.5843137254901961,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.619
+      },
+      {
+        "hex": "#861711",
+        "hue": 3.0769230769230766,
+        "saturation": 0.873134328358209,
+        "value": 0.5254901960784314,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.614
+      },
+      {
+        "hex": "#3a1f08",
+        "hue": 27.6,
+        "saturation": 0.8620689655172413,
+        "value": 0.22745098039215686,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.529
+      },
+      {
+        "hex": "#4e1206",
+        "hue": 10,
+        "saturation": 0.923076923076923,
+        "value": 0.3058823529411765,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.52
+      },
+      {
+        "hex": "#e5b05b",
+        "hue": 36.95652173913042,
+        "saturation": 0.6026200873362446,
+        "value": 0.8980392156862745,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.496
       }
     ]
   },
@@ -878,52 +1328,82 @@
     "accession": "2008.15.20",
     "theme": "Family",
     "image": "../paintings/family/2008.15.20.jpg",
-    "plotColour": "#bfa57b",
-    "hue": 37.058823529411775,
-    "saturation": 0.35602094240837695,
-    "value": 0.7490196078431373,
+    "plotColour": "#d08200",
+    "hue": 37.5,
+    "saturation": 1,
+    "value": 0.8156862745098039,
     "dominantColours": [
       {
-        "hex": "#bfa57b",
-        "hue": 37.058823529411775,
-        "saturation": 0.35602094240837695,
-        "value": 0.7490196078431373,
-        "percentage": 6.9
+        "hex": "#d08200",
+        "hue": 37.5,
+        "saturation": 1,
+        "value": 0.8156862745098039,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.754
       },
       {
-        "hex": "#a88c62",
-        "hue": 36.000000000000014,
-        "saturation": 0.41666666666666663,
-        "value": 0.6588235294117647,
-        "percentage": 5.5
+        "hex": "#9c5507",
+        "hue": 31.409395973154357,
+        "saturation": 0.9551282051282051,
+        "value": 0.611764705882353,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.678
       },
       {
-        "hex": "#a99275",
-        "hue": 33.46153846153846,
-        "saturation": 0.3076923076923077,
-        "value": 0.6627450980392157,
-        "percentage": 4.8
+        "hex": "#c68c28",
+        "hue": 37.9746835443038,
+        "saturation": 0.797979797979798,
+        "value": 0.7764705882352941,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.633
       },
       {
-        "hex": "#61452f",
-        "hue": 26.399999999999995,
-        "saturation": 0.5154639175257731,
-        "value": 0.3803921568627451,
-        "percentage": 4.7
+        "hex": "#5d3005",
+        "hue": 29.318181818181824,
+        "saturation": 0.946236559139785,
+        "value": 0.36470588235294116,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.612
       },
       {
-        "hex": "#5c3517",
-        "hue": 26.086956521739136,
-        "saturation": 0.75,
-        "value": 0.3607843137254902,
-        "percentage": 4.6
+        "hex": "#894921",
+        "hue": 23.07692307692307,
+        "saturation": 0.759124087591241,
+        "value": 0.5372549019607843,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.576
       },
       {
-        "hex": "#91795f",
-        "hue": 31.199999999999996,
-        "saturation": 0.3448275862068965,
-        "value": 0.5686274509803921,
-        "percentage": 4.6
+        "hex": "#32190f",
+        "hue": 17.142857142857142,
+        "saturation": 0.7000000000000001,
+        "value": 0.19607843137254902,
+        "percentage": 0.7,
+        "group": "dark",
+        "score": 0.494
+      },
+      {
+        "hex": "#551707",
+        "hue": 12.307692307692308,
+        "saturation": 0.9176470588235294,
+        "value": 0.3333333333333333,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.496
+      },
+      {
+        "hex": "#cb9a4a",
+        "hue": 37.20930232558139,
+        "saturation": 0.6354679802955665,
+        "value": 0.796078431372549,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.485
       }
     ]
   },
@@ -936,52 +1416,82 @@
     "accession": "2007.1.3313",
     "theme": "Family",
     "image": "../paintings/family/2007.1.3313.jpg",
-    "plotColour": "#907361",
-    "hue": 22.978723404255327,
-    "saturation": 0.3263888888888889,
-    "value": 0.5647058823529412,
+    "plotColour": "#a66c18",
+    "hue": 35.49295774647887,
+    "saturation": 0.8554216867469879,
+    "value": 0.6509803921568628,
     "dominantColours": [
       {
-        "hex": "#907361",
-        "hue": 22.978723404255327,
-        "saturation": 0.3263888888888889,
-        "value": 0.5647058823529412,
-        "percentage": 10.2
+        "hex": "#a66c18",
+        "hue": 35.49295774647887,
+        "saturation": 0.8554216867469879,
+        "value": 0.6509803921568628,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.633
       },
       {
-        "hex": "#785c4c",
-        "hue": 21.81818181818182,
-        "saturation": 0.36666666666666664,
-        "value": 0.47058823529411764,
-        "percentage": 8
+        "hex": "#d6863f",
+        "hue": 28.211920529801322,
+        "saturation": 0.705607476635514,
+        "value": 0.8392156862745098,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.598
       },
       {
-        "hex": "#1b1419",
-        "hue": 317.1428571428571,
-        "saturation": 0.25925925925925924,
-        "value": 0.10588235294117647,
-        "percentage": 6.2
+        "hex": "#6e4518",
+        "hue": 31.395348837209298,
+        "saturation": 0.7818181818181819,
+        "value": 0.43137254901960786,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.538
       },
       {
-        "hex": "#604b44",
-        "hue": 15.000000000000007,
-        "saturation": 0.2916666666666667,
-        "value": 0.3764705882352941,
-        "percentage": 5.8
+        "hex": "#9e5e33",
+        "hue": 24.112149532710283,
+        "saturation": 0.6772151898734177,
+        "value": 0.6196078431372549,
+        "percentage": 0.1,
+        "group": "colourful",
+        "score": 0.528
       },
       {
-        "hex": "#7b645a",
-        "hue": 18.181818181818173,
-        "saturation": 0.26829268292682923,
-        "value": 0.4823529411764706,
-        "percentage": 5.6
+        "hex": "#351617",
+        "hue": 358.06451612903226,
+        "saturation": 0.5849056603773585,
+        "value": 0.20784313725490197,
+        "percentage": 1,
+        "group": "dark",
+        "score": 0.456
       },
       {
-        "hex": "#a88e76",
-        "hue": 28.800000000000004,
-        "saturation": 0.29761904761904756,
-        "value": 0.6588235294117647,
-        "percentage": 4.2
+        "hex": "#a4893c",
+        "hue": 44.42307692307691,
+        "saturation": 0.6341463414634146,
+        "value": 0.6431372549019608,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.446
+      },
+      {
+        "hex": "#d09768",
+        "hue": 27.11538461538462,
+        "saturation": 0.5,
+        "value": 0.8156862745098039,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.429
+      },
+      {
+        "hex": "#682922",
+        "hue": 6.000000000000003,
+        "saturation": 0.6730769230769231,
+        "value": 0.40784313725490196,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.405
       }
     ]
   },
@@ -994,52 +1504,82 @@
     "accession": "2007.1.184",
     "theme": "Family",
     "image": "../paintings/family/2007.1.184.jpg",
-    "plotColour": "#775d4b",
-    "hue": 24.54545454545454,
-    "saturation": 0.36974789915966383,
-    "value": 0.4666666666666667,
+    "plotColour": "#c18b4f",
+    "hue": 31.578947368421044,
+    "saturation": 0.5906735751295337,
+    "value": 0.7568627450980392,
     "dominantColours": [
       {
-        "hex": "#1c1618",
-        "hue": 340.00000000000006,
-        "saturation": 0.21428571428571427,
-        "value": 0.10980392156862745,
-        "percentage": 12
+        "hex": "#c18b4f",
+        "hue": 31.578947368421044,
+        "saturation": 0.5906735751295337,
+        "value": 0.7568627450980392,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.514
       },
       {
-        "hex": "#775d4b",
-        "hue": 24.54545454545454,
-        "saturation": 0.36974789915966383,
-        "value": 0.4666666666666667,
-        "percentage": 10.4
+        "hex": "#7e522c",
+        "hue": 27.804878048780488,
+        "saturation": 0.6507936507936508,
+        "value": 0.49411764705882355,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.481
       },
       {
-        "hex": "#433530",
-        "hue": 15.789473684210535,
-        "saturation": 0.28358208955223885,
-        "value": 0.2627450980392157,
-        "percentage": 8
+        "hex": "#553219",
+        "hue": 25,
+        "saturation": 0.7058823529411765,
+        "value": 0.3333333333333333,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.472
       },
       {
-        "hex": "#352c2b",
-        "hue": 5.999999999999979,
-        "saturation": 0.18867924528301885,
-        "value": 0.20784313725490197,
-        "percentage": 6.8
+        "hex": "#d8bf7c",
+        "hue": 43.69565217391304,
+        "saturation": 0.42592592592592593,
+        "value": 0.8470588235294118,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.446
       },
       {
-        "hex": "#5f4c43",
-        "hue": 19.285714285714278,
-        "saturation": 0.29473684210526313,
-        "value": 0.37254901960784315,
-        "percentage": 6.2
+        "hex": "#82753c",
+        "hue": 48.857142857142854,
+        "saturation": 0.5384615384615384,
+        "value": 0.5098039215686274,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.526
       },
       {
-        "hex": "#2a1f1d",
-        "hue": 9.230769230769232,
-        "saturation": 0.30952380952380953,
-        "value": 0.16470588235294117,
-        "percentage": 5.8
+        "hex": "#241918",
+        "hue": 5,
+        "saturation": 0.3333333333333333,
+        "value": 0.1411764705882353,
+        "percentage": 1,
+        "group": "dark",
+        "score": 0.404
+      },
+      {
+        "hex": "#b18166",
+        "hue": 21.599999999999998,
+        "saturation": 0.42372881355932196,
+        "value": 0.6941176470588235,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.364
+      },
+      {
+        "hex": "#a7ac64",
+        "hue": 64.16666666666669,
+        "saturation": 0.4186046511627907,
+        "value": 0.6745098039215687,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.357
       }
     ]
   },
@@ -1052,52 +1592,82 @@
     "accession": "2007.1.1171",
     "theme": "Family",
     "image": "../paintings/family/2007.1.1171.jpg",
-    "plotColour": "#44352c",
-    "hue": 22.50000000000001,
-    "saturation": 0.35294117647058826,
-    "value": 0.26666666666666666,
+    "plotColour": "#bf5a19",
+    "hue": 23.49397590361446,
+    "saturation": 0.8691099476439791,
+    "value": 0.7490196078431373,
     "dominantColours": [
       {
-        "hex": "#44352c",
-        "hue": 22.50000000000001,
-        "saturation": 0.35294117647058826,
-        "value": 0.26666666666666666,
-        "percentage": 4.6
+        "hex": "#bf5a19",
+        "hue": 23.49397590361446,
+        "saturation": 0.8691099476439791,
+        "value": 0.7490196078431373,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.665
       },
       {
-        "hex": "#2e1c17",
-        "hue": 13.043478260869566,
-        "saturation": 0.5,
-        "value": 0.1803921568627451,
-        "percentage": 3.6
+        "hex": "#9a1f19",
+        "hue": 2.7906976744186047,
+        "saturation": 0.8376623376623377,
+        "value": 0.6039215686274509,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.612
       },
       {
-        "hex": "#4a4233",
-        "hue": 39.130434782608695,
-        "saturation": 0.31081081081081086,
-        "value": 0.2901960784313726,
-        "percentage": 3.3
+        "hex": "#8d6518",
+        "hue": 39.48717948717948,
+        "saturation": 0.8297872340425532,
+        "value": 0.5529411764705883,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.595
       },
       {
-        "hex": "#487632",
-        "hue": 100.58823529411765,
-        "saturation": 0.5762711864406781,
-        "value": 0.4627450980392157,
-        "percentage": 2.6
+        "hex": "#d17c3d",
+        "hue": 25.540540540540544,
+        "saturation": 0.708133971291866,
+        "value": 0.8196078431372549,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.594
       },
       {
-        "hex": "#594d44",
-        "hue": 25.714285714285708,
-        "saturation": 0.23595505617977525,
-        "value": 0.34901960784313724,
-        "percentage": 2.5
+        "hex": "#331b08",
+        "hue": 26.51162790697674,
+        "saturation": 0.8431372549019608,
+        "value": 0.2,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.533
       },
       {
-        "hex": "#90744a",
-        "hue": 36,
-        "saturation": 0.48611111111111105,
-        "value": 0.5647058823529412,
-        "percentage": 2.5
+        "hex": "#461913",
+        "hue": 7.0588235294117645,
+        "saturation": 0.7285714285714285,
+        "value": 0.27450980392156865,
+        "percentage": 0.1,
+        "group": "dark",
+        "score": 0.473
+      },
+      {
+        "hex": "#cfa43d",
+        "hue": 42.328767123287676,
+        "saturation": 0.7053140096618357,
+        "value": 0.8117647058823529,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.52
+      },
+      {
+        "hex": "#d34d42",
+        "hue": 4.55172413793103,
+        "saturation": 0.6872037914691943,
+        "value": 0.8274509803921568,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.516
       }
     ]
   },
@@ -1110,52 +1680,82 @@
     "accession": "2009.6.9",
     "theme": "Family",
     "image": "../paintings/family/2009.6.9.jpg",
-    "plotColour": "#aaa48f",
-    "hue": 46.66666666666671,
-    "saturation": 0.15882352941176464,
-    "value": 0.6666666666666666,
+    "plotColour": "#e4ac3a",
+    "hue": 40.23529411764706,
+    "saturation": 0.7456140350877194,
+    "value": 0.8941176470588236,
     "dominantColours": [
       {
-        "hex": "#aaa48f",
-        "hue": 46.66666666666671,
-        "saturation": 0.15882352941176464,
-        "value": 0.6666666666666666,
-        "percentage": 6.7
+        "hex": "#e4ac3a",
+        "hue": 40.23529411764706,
+        "saturation": 0.7456140350877194,
+        "value": 0.8941176470588236,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.634
       },
       {
-        "hex": "#c08f42",
-        "hue": 36.66666666666667,
-        "saturation": 0.65625,
-        "value": 0.7529411764705882,
-        "percentage": 4.6
+        "hex": "#bb872b",
+        "hue": 38.33333333333333,
+        "saturation": 0.770053475935829,
+        "value": 0.7333333333333333,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.607
       },
       {
-        "hex": "#919178",
-        "hue": 60,
-        "saturation": 0.17241379310344826,
-        "value": 0.5686274509803921,
-        "percentage": 4.4
+        "hex": "#872a15",
+        "hue": 11.052631578947368,
+        "saturation": 0.8444444444444444,
+        "value": 0.5294117647058824,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.597
       },
       {
-        "hex": "#beae8f",
-        "hue": 39.57446808510638,
-        "saturation": 0.2473684210526316,
-        "value": 0.7450980392156863,
-        "percentage": 3.6
+        "hex": "#d06b3e",
+        "hue": 18.49315068493151,
+        "saturation": 0.7019230769230769,
+        "value": 0.8156862745098039,
+        "percentage": 0,
+        "group": "colourful",
+        "score": 0.59
       },
       {
-        "hex": "#d5a64b",
-        "hue": 39.565217391304344,
-        "saturation": 0.647887323943662,
-        "value": 0.8352941176470589,
-        "percentage": 3.5
+        "hex": "#7f5627",
+        "hue": 32.045454545454554,
+        "saturation": 0.6929133858267716,
+        "value": 0.4980392156862745,
+        "percentage": 0,
+        "group": "medium",
+        "score": 0.556
       },
       {
-        "hex": "#443433",
-        "hue": 3.5294117647058703,
-        "saturation": 0.24999999999999994,
-        "value": 0.26666666666666666,
-        "percentage": 3.4
+        "hex": "#491e18",
+        "hue": 7.346938775510205,
+        "saturation": 0.6712328767123288,
+        "value": 0.28627450980392155,
+        "percentage": 0,
+        "group": "dark",
+        "score": 0.451
+      },
+      {
+        "hex": "#271719",
+        "hue": 352.5,
+        "saturation": 0.4102564102564103,
+        "value": 0.15294117647058825,
+        "percentage": 0.1,
+        "group": "dark",
+        "score": 0.42
+      },
+      {
+        "hex": "#e4bd60",
+        "hue": 42.27272727272727,
+        "saturation": 0.5789473684210527,
+        "value": 0.8941176470588236,
+        "percentage": 0,
+        "group": "fallback",
+        "score": 0.484
       }
     ]
   }
