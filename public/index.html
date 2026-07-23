@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Sajjil Colour Visualiser</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <main class="layout">
+
+    <section class="intro">
+      <p class="eyebrow">Sajjil Colour Visualiser</p>
+      <h1 id="themeTitle">Nature Palette</h1>
+      <p id="themeDescription">
+Each point represents one artwork.
+
+The angle around the wheel shows hue
+(red, yellow, green, blue).
+
+The distance from the centre shows saturation.
+
+Colours near the centre are muted.
+
+Colours near the edge are vibrant.
+
+Select a point to view the artwork and its dominant colour palette.
+</p>
+
+      <div id="toolbar">
+        <button data-theme="Nature" class="active">Nature</button>
+        <button data-theme="Family">Family</button>
+      </div>
+
+      <p id="artworkCount"></p>
+    </section>
+
+    <section class="visualArea">
+      <canvas id="wheel" width="900" height="900"></canvas>
+    </section>
+
+  </main>
+
+  <div id="modal" class="hidden">
+    <div id="modalContent">
+      <button id="closeBtn">×</button>
+
+      <img id="artImage">
+
+      <div class="modalText">
+        <p id="artTheme"></p>
+        <h2 id="artTitle"></h2>
+        <p id="artArtist"></p>
+        <p id="artYear"></p>
+        <p id="artMedium"></p>
+        <p id="artDimensions"></p>
+      </div>
+
+      <h3>Dominant Colours</h3>
+      <div id="swatches"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1162 @@
+[
+  {
+    "title": "Unknown",
+    "artist": "Chafic Abboud",
+    "year": "1958",
+    "medium": "Oil on Panel",
+    "dimensions": "69x70 cm",
+    "accession": "2007.1.1668",
+    "theme": "Nature",
+    "image": "../paintings/nature/2007.1.1668.jpg",
+    "plotColour": "#46322d",
+    "hue": 11.99999999999999,
+    "saturation": 0.35714285714285715,
+    "value": 0.27450980392156865,
+    "dominantColours": [
+      {
+        "hex": "#46322d",
+        "hue": 11.99999999999999,
+        "saturation": 0.35714285714285715,
+        "value": 0.27450980392156865,
+        "percentage": 6.5
+      },
+      {
+        "hex": "#2e1e1c",
+        "hue": 6.666666666666666,
+        "saturation": 0.391304347826087,
+        "value": 0.1803921568627451,
+        "percentage": 6.3
+      },
+      {
+        "hex": "#332b2b",
+        "hue": 0,
+        "saturation": 0.1568627450980392,
+        "value": 0.2,
+        "percentage": 6
+      },
+      {
+        "hex": "#1d191b",
+        "hue": 330,
+        "saturation": 0.13793103448275862,
+        "value": 0.11372549019607843,
+        "percentage": 5.7
+      },
+      {
+        "hex": "#5d4c47",
+        "hue": 13.636363636363631,
+        "saturation": 0.23655913978494617,
+        "value": 0.36470588235294116,
+        "percentage": 4.7
+      },
+      {
+        "hex": "#484645",
+        "hue": 20.00000000000019,
+        "saturation": 0.04166666666666671,
+        "value": 0.2823529411764706,
+        "percentage": 4.3
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Ragheb Ayad",
+    "year": "1923",
+    "medium": "Oil on Cardboard",
+    "dimensions": "90.6x69.4 cm",
+    "accession": "2007.1.1711",
+    "theme": "Nature",
+    "image": "../paintings/nature/2007.1.1711.jpg",
+    "plotColour": "#5e4832",
+    "hue": 30,
+    "saturation": 0.4680851063829788,
+    "value": 0.3686274509803922,
+    "dominantColours": [
+      {
+        "hex": "#5e4832",
+        "hue": 30,
+        "saturation": 0.4680851063829788,
+        "value": 0.3686274509803922,
+        "percentage": 9.6
+      },
+      {
+        "hex": "#45342c",
+        "hue": 19.200000000000003,
+        "saturation": 0.3623188405797101,
+        "value": 0.27058823529411763,
+        "percentage": 9.5
+      },
+      {
+        "hex": "#332b2a",
+        "hue": 6.666666666666687,
+        "saturation": 0.17647058823529418,
+        "value": 0.2,
+        "percentage": 8.7
+      },
+      {
+        "hex": "#2a1f1e",
+        "hue": 5,
+        "saturation": 0.2857142857142857,
+        "value": 0.16470588235294117,
+        "percentage": 6.3
+      },
+      {
+        "hex": "#4c4231",
+        "hue": 37.77777777777779,
+        "saturation": 0.3552631578947368,
+        "value": 0.2980392156862745,
+        "percentage": 5.7
+      },
+      {
+        "hex": "#1d1819",
+        "hue": 348,
+        "saturation": 0.1724137931034483,
+        "value": 0.11372549019607843,
+        "percentage": 5.2
+      }
+    ]
+  },
+  {
+    "title": "Melons",
+    "artist": "Daoud Corm",
+    "year": "1899",
+    "medium": "Oil on Canvas",
+    "dimensions": "60.1x73.2 cm",
+    "accession": "2007.1.2775",
+    "theme": "Nature",
+    "image": "../paintings/nature/2007.1.2775.jpg",
+    "plotColour": "#342e2b",
+    "hue": 19.999999999999986,
+    "saturation": 0.17307692307692302,
+    "value": 0.20392156862745098,
+    "dominantColours": [
+      {
+        "hex": "#342e2b",
+        "hue": 19.999999999999986,
+        "saturation": 0.17307692307692302,
+        "value": 0.20392156862745098,
+        "percentage": 19.3
+      },
+      {
+        "hex": "#43362d",
+        "hue": 24.54545454545454,
+        "saturation": 0.3283582089552239,
+        "value": 0.2627450980392157,
+        "percentage": 8.3
+      },
+      {
+        "hex": "#1b1817",
+        "hue": 15,
+        "saturation": 0.14814814814814814,
+        "value": 0.10588235294117647,
+        "percentage": 6
+      },
+      {
+        "hex": "#c0ad8e",
+        "hue": 37.2,
+        "saturation": 0.26041666666666663,
+        "value": 0.7529411764705882,
+        "percentage": 5.4
+      },
+      {
+        "hex": "#5d4833",
+        "hue": 30,
+        "saturation": 0.4516129032258064,
+        "value": 0.36470588235294116,
+        "percentage": 5.4
+      },
+      {
+        "hex": "#776248",
+        "hue": 33.19148936170214,
+        "saturation": 0.39495798319327735,
+        "value": 0.4666666666666667,
+        "percentage": 5
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Saliba Douality",
+    "year": "1968",
+    "medium": "Oil on Canvas",
+    "dimensions": "45.7x68.8 cm",
+    "accession": "2009.6.7",
+    "theme": "Nature",
+    "image": "../paintings/nature/2009.6.7.jpg",
+    "plotColour": "#a9754b",
+    "hue": 26.80851063829787,
+    "saturation": 0.5562130177514792,
+    "value": 0.6627450980392157,
+    "dominantColours": [
+      {
+        "hex": "#a9754b",
+        "hue": 26.80851063829787,
+        "saturation": 0.5562130177514792,
+        "value": 0.6627450980392157,
+        "percentage": 5.3
+      },
+      {
+        "hex": "#46322e",
+        "hue": 9.999999999999998,
+        "saturation": 0.3428571428571429,
+        "value": 0.27450980392156865,
+        "percentage": 5.3
+      },
+      {
+        "hex": "#322c2c",
+        "hue": 0,
+        "saturation": 0.12,
+        "value": 0.19607843137254902,
+        "percentage": 4.7
+      },
+      {
+        "hex": "#bd905e",
+        "hue": 31.578947368421044,
+        "saturation": 0.5026455026455027,
+        "value": 0.7411764705882353,
+        "percentage": 3.5
+      },
+      {
+        "hex": "#2c1e1c",
+        "hue": 7.5,
+        "saturation": 0.36363636363636365,
+        "value": 0.17254901960784313,
+        "percentage": 3.4
+      },
+      {
+        "hex": "#1c191b",
+        "hue": 320,
+        "saturation": 0.10714285714285714,
+        "value": 0.10980392156862745,
+        "percentage": 2.9
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Khalid al-Rahhal",
+    "year": "1966",
+    "medium": "Oil on Board",
+    "dimensions": "41.60 cm",
+    "accession": "2007.1.3344",
+    "theme": "Nature",
+    "image": "../paintings/nature/2007.1.3344.jpg",
+    "plotColour": "#c3925c",
+    "hue": 31.45631067961165,
+    "saturation": 0.5282051282051282,
+    "value": 0.7647058823529411,
+    "dominantColours": [
+      {
+        "hex": "#c3925c",
+        "hue": 31.45631067961165,
+        "saturation": 0.5282051282051282,
+        "value": 0.7647058823529411,
+        "percentage": 12.3
+      },
+      {
+        "hex": "#a66233",
+        "hue": 24.52173913043478,
+        "saturation": 0.6927710843373494,
+        "value": 0.6509803921568628,
+        "percentage": 9.3
+      },
+      {
+        "hex": "#ad7645",
+        "hue": 28.269230769230774,
+        "saturation": 0.6011560693641619,
+        "value": 0.6784313725490196,
+        "percentage": 7.9
+      },
+      {
+        "hex": "#c28d4c",
+        "hue": 33.05084745762712,
+        "saturation": 0.6082474226804123,
+        "value": 0.7607843137254902,
+        "percentage": 7.6
+      },
+      {
+        "hex": "#ba7d47",
+        "hue": 28.17391304347826,
+        "saturation": 0.6182795698924731,
+        "value": 0.7294117647058823,
+        "percentage": 6.4
+      },
+      {
+        "hex": "#d0a464",
+        "hue": 35.55555555555556,
+        "saturation": 0.5192307692307693,
+        "value": 0.8156862745098039,
+        "percentage": 5.2
+      }
+    ]
+  },
+  {
+    "title": "Flowers",
+    "artist": "Taheya Halim",
+    "year": "1942",
+    "medium": "Oil on Canvas on Board",
+    "dimensions": "44.5x35 cm",
+    "accession": "2007.1.2870",
+    "theme": "Nature",
+    "image": "../paintings/nature/2007.1.2870.jpg",
+    "plotColour": "#44342d",
+    "hue": 18.260869565217384,
+    "saturation": 0.338235294117647,
+    "value": 0.26666666666666666,
+    "dominantColours": [
+      {
+        "hex": "#44342d",
+        "hue": 18.260869565217384,
+        "saturation": 0.338235294117647,
+        "value": 0.26666666666666666,
+        "percentage": 6.6
+      },
+      {
+        "hex": "#322c2c",
+        "hue": 0,
+        "saturation": 0.12,
+        "value": 0.19607843137254902,
+        "percentage": 5.3
+      },
+      {
+        "hex": "#f2eada",
+        "hue": 40,
+        "saturation": 0.09917355371900827,
+        "value": 0.9490196078431372,
+        "percentage": 4.9
+      },
+      {
+        "hex": "#2a1e1d",
+        "hue": 4.615384615384616,
+        "saturation": 0.30952380952380953,
+        "value": 0.16470588235294117,
+        "percentage": 4.8
+      },
+      {
+        "hex": "#1f191a",
+        "hue": 350,
+        "saturation": 0.1935483870967742,
+        "value": 0.12156862745098039,
+        "percentage": 4.3
+      },
+      {
+        "hex": "#8e7b5e",
+        "hue": 36.24999999999999,
+        "saturation": 0.3380281690140845,
+        "value": 0.5568627450980392,
+        "percentage": 4.2
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Nazeer Khalil",
+    "year": "1939",
+    "medium": "Oil on Board",
+    "dimensions": "37.5x47.8cm",
+    "accession": "2007.1.1126",
+    "theme": "Nature",
+    "image": "../paintings/nature/2007.1.1126.jpg",
+    "plotColour": "#c4b9ac",
+    "hue": 32.49999999999996,
+    "saturation": 0.12244897959183673,
+    "value": 0.7686274509803922,
+    "dominantColours": [
+      {
+        "hex": "#c4b9ac",
+        "hue": 32.49999999999996,
+        "saturation": 0.12244897959183673,
+        "value": 0.7686274509803922,
+        "percentage": 8.8
+      },
+      {
+        "hex": "#c0a776",
+        "hue": 39.729729729729726,
+        "saturation": 0.38541666666666663,
+        "value": 0.7529411764705882,
+        "percentage": 8.2
+      },
+      {
+        "hex": "#1a1716",
+        "hue": 15,
+        "saturation": 0.15384615384615385,
+        "value": 0.10196078431372549,
+        "percentage": 5.5
+      },
+      {
+        "hex": "#d0c6ba",
+        "hue": 32.727272727272755,
+        "saturation": 0.10576923076923081,
+        "value": 0.8156862745098039,
+        "percentage": 5.3
+      },
+      {
+        "hex": "#ab905e",
+        "hue": 38.961038961038966,
+        "saturation": 0.45029239766081863,
+        "value": 0.6705882352941176,
+        "percentage": 3.9
+      },
+      {
+        "hex": "#bfa363",
+        "hue": 41.7391304347826,
+        "saturation": 0.4816753926701571,
+        "value": 0.7490196078431373,
+        "percentage": 3.5
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Fateh al-Moudarres",
+    "year": "1962",
+    "medium": "Oil on Canvas",
+    "dimensions": "68.3x49 cm",
+    "accession": "2007.1.1665",
+    "theme": "Nature",
+    "image": "../paintings/nature/2007.1.1665.jpg",
+    "plotColour": "#d6c2a9",
+    "hue": 33.33333333333332,
+    "saturation": 0.21028037383177575,
+    "value": 0.8392156862745098,
+    "dominantColours": [
+      {
+        "hex": "#d6c2a9",
+        "hue": 33.33333333333332,
+        "saturation": 0.21028037383177575,
+        "value": 0.8392156862745098,
+        "percentage": 7.2
+      },
+      {
+        "hex": "#c0ac8f",
+        "hue": 35.510204081632665,
+        "saturation": 0.2552083333333333,
+        "value": 0.7529411764705882,
+        "percentage": 5.1
+      },
+      {
+        "hex": "#302e2f",
+        "hue": 329.9999999999999,
+        "saturation": 0.041666666666666664,
+        "value": 0.18823529411764706,
+        "percentage": 4.9
+      },
+      {
+        "hex": "#d4ba92",
+        "hue": 36.36363636363635,
+        "saturation": 0.31132075471698123,
+        "value": 0.8313725490196079,
+        "percentage": 3.5
+      },
+      {
+        "hex": "#bfa67a",
+        "hue": 38.2608695652174,
+        "saturation": 0.3612565445026178,
+        "value": 0.7490196078431373,
+        "percentage": 3.5
+      },
+      {
+        "hex": "#776146",
+        "hue": 33.06122448979591,
+        "saturation": 0.4117647058823529,
+        "value": 0.4666666666666667,
+        "percentage": 3.3
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Mohammed Nagy",
+    "year": "1930",
+    "medium": "Oil on Canvas",
+    "dimensions": "31.1x44.2 cm",
+    "accession": "2007.1.2884",
+    "theme": "Nature",
+    "image": "../paintings/nature/2007.1.2884.jpg",
+    "plotColour": "#47322c",
+    "hue": 13.33333333333333,
+    "saturation": 0.3802816901408451,
+    "value": 0.2784313725490196,
+    "dominantColours": [
+      {
+        "hex": "#47322c",
+        "hue": 13.33333333333333,
+        "saturation": 0.3802816901408451,
+        "value": 0.2784313725490196,
+        "percentage": 7
+      },
+      {
+        "hex": "#5e4632",
+        "hue": 27.272727272727277,
+        "saturation": 0.4680851063829788,
+        "value": 0.3686274509803922,
+        "percentage": 6
+      },
+      {
+        "hex": "#2e1d1b",
+        "hue": 6.315789473684211,
+        "saturation": 0.41304347826086957,
+        "value": 0.1803921568627451,
+        "percentage": 5.3
+      },
+      {
+        "hex": "#776048",
+        "hue": 30.638297872340424,
+        "saturation": 0.39495798319327735,
+        "value": 0.4666666666666667,
+        "percentage": 5
+      },
+      {
+        "hex": "#1a1819",
+        "hue": 330,
+        "saturation": 0.07692307692307693,
+        "value": 0.10196078431372549,
+        "percentage": 4.5
+      },
+      {
+        "hex": "#4b4430",
+        "hue": 44.444444444444436,
+        "saturation": 0.36000000000000004,
+        "value": 0.29411764705882354,
+        "percentage": 4.5
+      }
+    ]
+  },
+  {
+    "title": "Maloya",
+    "artist": "Georges Sabbagh",
+    "year": "1929",
+    "medium": "Oil on Canvas",
+    "dimensions": "65x82 cm",
+    "accession": "L2010.8.7",
+    "theme": "Nature",
+    "image": "../paintings/nature/L2010.8.7.jpg",
+    "plotColour": "#5d492f",
+    "hue": 33.91304347826087,
+    "saturation": 0.49462365591397844,
+    "value": 0.36470588235294116,
+    "dominantColours": [
+      {
+        "hex": "#1b1819",
+        "hue": 340.00000000000006,
+        "saturation": 0.1111111111111111,
+        "value": 0.10588235294117647,
+        "percentage": 10.8
+      },
+      {
+        "hex": "#5d492f",
+        "hue": 33.91304347826087,
+        "saturation": 0.49462365591397844,
+        "value": 0.36470588235294116,
+        "percentage": 6
+      },
+      {
+        "hex": "#322c2a",
+        "hue": 15,
+        "saturation": 0.16,
+        "value": 0.19607843137254902,
+        "percentage": 5.6
+      },
+      {
+        "hex": "#31281f",
+        "hue": 29.999999999999993,
+        "saturation": 0.3673469387755102,
+        "value": 0.19215686274509805,
+        "percentage": 5.1
+      },
+      {
+        "hex": "#b8aea3",
+        "hue": 31.428571428571463,
+        "saturation": 0.11413043478260876,
+        "value": 0.7215686274509804,
+        "percentage": 5.1
+      },
+      {
+        "hex": "#5c4d46",
+        "hue": 19.090909090909065,
+        "saturation": 0.23913043478260862,
+        "value": 0.3607843137254902,
+        "percentage": 5.1
+      }
+    ]
+  },
+  {
+    "title": "From Jabal Al Arab",
+    "artist": "Nazem al-Jaafari",
+    "year": "1957",
+    "medium": "Oil on Canvas",
+    "dimensions": "143x103 cm",
+    "accession": "2008.15.3",
+    "theme": "Family",
+    "image": "../paintings/family/2008.15.3.jpg",
+    "plotColour": "#736162",
+    "hue": 356.66666666666663,
+    "saturation": 0.15652173913043485,
+    "value": 0.45098039215686275,
+    "dominantColours": [
+      {
+        "hex": "#322e2d",
+        "hue": 11.999999999999964,
+        "saturation": 0.09999999999999992,
+        "value": 0.19607843137254902,
+        "percentage": 6.5
+      },
+      {
+        "hex": "#65595f",
+        "hue": 329.99999999999994,
+        "saturation": 0.11881188118811882,
+        "value": 0.396078431372549,
+        "percentage": 6
+      },
+      {
+        "hex": "#736162",
+        "hue": 356.66666666666663,
+        "saturation": 0.15652173913043485,
+        "value": 0.45098039215686275,
+        "percentage": 4.6
+      },
+      {
+        "hex": "#5e4e5d",
+        "hue": 303.75000000000006,
+        "saturation": 0.1702127659574468,
+        "value": 0.3686274509803922,
+        "percentage": 4
+      },
+      {
+        "hex": "#746474",
+        "hue": 300,
+        "saturation": 0.13793103448275862,
+        "value": 0.4549019607843137,
+        "percentage": 3.9
+      },
+      {
+        "hex": "#5e494a",
+        "hue": 357.1428571428571,
+        "saturation": 0.22340425531914904,
+        "value": 0.3686274509803922,
+        "percentage": 3.6
+      }
+    ]
+  },
+  {
+    "title": "Maternités Arabes [Arab Motherhood]",
+    "artist": "Georges Sabbagh",
+    "year": "1920-1921",
+    "medium": "Oil on Canvas",
+    "dimensions": "195x129 cm",
+    "accession": "2007.1.1633",
+    "theme": "Family",
+    "image": "../paintings/family/2007.1.1633.jpg",
+    "plotColour": "#46342c",
+    "hue": 18.461538461538456,
+    "saturation": 0.3714285714285715,
+    "value": 0.27450980392156865,
+    "dominantColours": [
+      {
+        "hex": "#46342c",
+        "hue": 18.461538461538456,
+        "saturation": 0.3714285714285715,
+        "value": 0.27450980392156865,
+        "percentage": 8.4
+      },
+      {
+        "hex": "#332f2b",
+        "hue": 30,
+        "saturation": 0.1568627450980392,
+        "value": 0.2,
+        "percentage": 7.2
+      },
+      {
+        "hex": "#4a4332",
+        "hue": 42.49999999999999,
+        "saturation": 0.3243243243243244,
+        "value": 0.2901960784313726,
+        "percentage": 6.6
+      },
+      {
+        "hex": "#5e4634",
+        "hue": 25.71428571428572,
+        "saturation": 0.4468085106382979,
+        "value": 0.3686274509803922,
+        "percentage": 5.4
+      },
+      {
+        "hex": "#1d1918",
+        "hue": 12,
+        "saturation": 0.1724137931034483,
+        "value": 0.11372549019607843,
+        "percentage": 3.3
+      },
+      {
+        "hex": "#764633",
+        "hue": 17.014925373134332,
+        "saturation": 0.5677966101694916,
+        "value": 0.4627450980392157,
+        "percentage": 3.3
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Khalid al-Jadar",
+    "year": "1976",
+    "medium": "Oil on Canvas",
+    "dimensions": "41x48.2 cm",
+    "accession": "2007.1.168",
+    "theme": "Family",
+    "image": "../paintings/family/2007.1.168.jpg",
+    "plotColour": "#464a5e",
+    "hue": 230.00000000000003,
+    "saturation": 0.2553191489361702,
+    "value": 0.3686274509803922,
+    "dominantColours": [
+      {
+        "hex": "#464a5e",
+        "hue": 230.00000000000003,
+        "saturation": 0.2553191489361702,
+        "value": 0.3686274509803922,
+        "percentage": 12.9
+      },
+      {
+        "hex": "#45434b",
+        "hue": 254.99999999999994,
+        "saturation": 0.10666666666666666,
+        "value": 0.29411764705882354,
+        "percentage": 12.6
+      },
+      {
+        "hex": "#615b62",
+        "hue": 291.42857142857133,
+        "saturation": 0.07142857142857147,
+        "value": 0.3843137254901961,
+        "percentage": 7.2
+      },
+      {
+        "hex": "#353746",
+        "hue": 232.94117647058826,
+        "saturation": 0.24285714285714288,
+        "value": 0.27450980392156865,
+        "percentage": 6.2
+      },
+      {
+        "hex": "#606174",
+        "hue": 237,
+        "saturation": 0.1724137931034483,
+        "value": 0.4549019607843137,
+        "percentage": 4.6
+      },
+      {
+        "hex": "#75625e",
+        "hue": 10.434782608695658,
+        "saturation": 0.1965811965811965,
+        "value": 0.4588235294117647,
+        "percentage": 4.1
+      }
+    ]
+  },
+  {
+    "title": "Relationship",
+    "artist": "Faisal Laibi",
+    "year": "1989",
+    "medium": "Oil on Canvas",
+    "dimensions": "101x91.3 cm",
+    "accession": "2007.1.391",
+    "theme": "Family",
+    "image": "../paintings/family/2007.1.391.jpg",
+    "plotColour": "#dbbc8d",
+    "hue": 36.15384615384617,
+    "saturation": 0.35616438356164376,
+    "value": 0.8588235294117647,
+    "dominantColours": [
+      {
+        "hex": "#dbbc8d",
+        "hue": 36.15384615384617,
+        "saturation": 0.35616438356164376,
+        "value": 0.8588235294117647,
+        "percentage": 16.6
+      },
+      {
+        "hex": "#d9b87e",
+        "hue": 38.24175824175824,
+        "saturation": 0.4193548387096774,
+        "value": 0.8509803921568627,
+        "percentage": 6.8
+      },
+      {
+        "hex": "#d2ad7c",
+        "hue": 34.186046511627914,
+        "saturation": 0.4095238095238095,
+        "value": 0.8235294117647058,
+        "percentage": 4.9
+      },
+      {
+        "hex": "#343343",
+        "hue": 243.75,
+        "saturation": 0.23880597014925373,
+        "value": 0.2627450980392157,
+        "percentage": 4.8
+      },
+      {
+        "hex": "#d6ad8b",
+        "hue": 27.20000000000001,
+        "saturation": 0.35046728971962626,
+        "value": 0.8392156862745098,
+        "percentage": 3.6
+      },
+      {
+        "hex": "#1f1b29",
+        "hue": 257.14285714285717,
+        "saturation": 0.3414634146341464,
+        "value": 0.1607843137254902,
+        "percentage": 3.3
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Ahmad Nawash",
+    "year": "1992",
+    "medium": "Oil on Canvas",
+    "dimensions": "74.5x94.5 cm",
+    "accession": "2007.1.1076",
+    "theme": "Family",
+    "image": "../paintings/family/2007.1.1076.jpg",
+    "plotColour": "#a5938b",
+    "hue": 18.461538461538446,
+    "saturation": 0.1575757575757577,
+    "value": 0.6470588235294118,
+    "dominantColours": [
+      {
+        "hex": "#a5938b",
+        "hue": 18.461538461538446,
+        "saturation": 0.1575757575757577,
+        "value": 0.6470588235294118,
+        "percentage": 6.6
+      },
+      {
+        "hex": "#8e7c75",
+        "hue": 16.8,
+        "saturation": 0.17605633802816908,
+        "value": 0.5568627450980392,
+        "percentage": 4.8
+      },
+      {
+        "hex": "#752e1c",
+        "hue": 12.134831460674157,
+        "saturation": 0.7606837606837606,
+        "value": 0.4588235294117647,
+        "percentage": 3.6
+      },
+      {
+        "hex": "#746560",
+        "hue": 14.99999999999999,
+        "saturation": 0.1724137931034483,
+        "value": 0.4549019607843137,
+        "percentage": 3.3
+      },
+      {
+        "hex": "#777f88",
+        "hue": 211.76470588235296,
+        "saturation": 0.12499999999999997,
+        "value": 0.5333333333333333,
+        "percentage": 3.2
+      },
+      {
+        "hex": "#c1925e",
+        "hue": 31.515151515151512,
+        "saturation": 0.5129533678756476,
+        "value": 0.7568627450980392,
+        "percentage": 3
+      }
+    ]
+  },
+  {
+    "title": "A Couple, Young Man and Wife",
+    "artist": "Jewad Selim",
+    "year": "1953",
+    "medium": "Oil on Canvas",
+    "dimensions": "50.7x76.1cm",
+    "accession": "2008.15.20",
+    "theme": "Family",
+    "image": "../paintings/family/2008.15.20.jpg",
+    "plotColour": "#bfa57b",
+    "hue": 37.058823529411775,
+    "saturation": 0.35602094240837695,
+    "value": 0.7490196078431373,
+    "dominantColours": [
+      {
+        "hex": "#bfa57b",
+        "hue": 37.058823529411775,
+        "saturation": 0.35602094240837695,
+        "value": 0.7490196078431373,
+        "percentage": 6.9
+      },
+      {
+        "hex": "#a88c62",
+        "hue": 36.000000000000014,
+        "saturation": 0.41666666666666663,
+        "value": 0.6588235294117647,
+        "percentage": 5.5
+      },
+      {
+        "hex": "#a99275",
+        "hue": 33.46153846153846,
+        "saturation": 0.3076923076923077,
+        "value": 0.6627450980392157,
+        "percentage": 4.8
+      },
+      {
+        "hex": "#61452f",
+        "hue": 26.399999999999995,
+        "saturation": 0.5154639175257731,
+        "value": 0.3803921568627451,
+        "percentage": 4.7
+      },
+      {
+        "hex": "#5c3517",
+        "hue": 26.086956521739136,
+        "saturation": 0.75,
+        "value": 0.3607843137254902,
+        "percentage": 4.6
+      },
+      {
+        "hex": "#91795f",
+        "hue": 31.199999999999996,
+        "saturation": 0.3448275862068965,
+        "value": 0.5686274509803921,
+        "percentage": 4.6
+      }
+    ]
+  },
+  {
+    "title": "Features from Qatar",
+    "artist": "Jassim al-Zainy",
+    "year": "1973",
+    "medium": "Oil on board",
+    "dimensions": "48.5x78.3 cm",
+    "accession": "2007.1.3313",
+    "theme": "Family",
+    "image": "../paintings/family/2007.1.3313.jpg",
+    "plotColour": "#907361",
+    "hue": 22.978723404255327,
+    "saturation": 0.3263888888888889,
+    "value": 0.5647058823529412,
+    "dominantColours": [
+      {
+        "hex": "#907361",
+        "hue": 22.978723404255327,
+        "saturation": 0.3263888888888889,
+        "value": 0.5647058823529412,
+        "percentage": 10.2
+      },
+      {
+        "hex": "#785c4c",
+        "hue": 21.81818181818182,
+        "saturation": 0.36666666666666664,
+        "value": 0.47058823529411764,
+        "percentage": 8
+      },
+      {
+        "hex": "#1b1419",
+        "hue": 317.1428571428571,
+        "saturation": 0.25925925925925924,
+        "value": 0.10588235294117647,
+        "percentage": 6.2
+      },
+      {
+        "hex": "#604b44",
+        "hue": 15.000000000000007,
+        "saturation": 0.2916666666666667,
+        "value": 0.3764705882352941,
+        "percentage": 5.8
+      },
+      {
+        "hex": "#7b645a",
+        "hue": 18.181818181818173,
+        "saturation": 0.26829268292682923,
+        "value": 0.4823529411764706,
+        "percentage": 5.6
+      },
+      {
+        "hex": "#a88e76",
+        "hue": 28.800000000000004,
+        "saturation": 0.29761904761904756,
+        "value": 0.6588235294117647,
+        "percentage": 4.2
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Ismail al-Shaikhly",
+    "year": "1966",
+    "medium": "Oil on Canvas",
+    "dimensions": "45.7x53.3 cm",
+    "accession": "2007.1.184",
+    "theme": "Family",
+    "image": "../paintings/family/2007.1.184.jpg",
+    "plotColour": "#775d4b",
+    "hue": 24.54545454545454,
+    "saturation": 0.36974789915966383,
+    "value": 0.4666666666666667,
+    "dominantColours": [
+      {
+        "hex": "#1c1618",
+        "hue": 340.00000000000006,
+        "saturation": 0.21428571428571427,
+        "value": 0.10980392156862745,
+        "percentage": 12
+      },
+      {
+        "hex": "#775d4b",
+        "hue": 24.54545454545454,
+        "saturation": 0.36974789915966383,
+        "value": 0.4666666666666667,
+        "percentage": 10.4
+      },
+      {
+        "hex": "#433530",
+        "hue": 15.789473684210535,
+        "saturation": 0.28358208955223885,
+        "value": 0.2627450980392157,
+        "percentage": 8
+      },
+      {
+        "hex": "#352c2b",
+        "hue": 5.999999999999979,
+        "saturation": 0.18867924528301885,
+        "value": 0.20784313725490197,
+        "percentage": 6.8
+      },
+      {
+        "hex": "#5f4c43",
+        "hue": 19.285714285714278,
+        "saturation": 0.29473684210526313,
+        "value": 0.37254901960784315,
+        "percentage": 6.2
+      },
+      {
+        "hex": "#2a1f1d",
+        "hue": 9.230769230769232,
+        "saturation": 0.30952380952380953,
+        "value": 0.16470588235294117,
+        "percentage": 5.8
+      }
+    ]
+  },
+  {
+    "title": "Unknown",
+    "artist": "Gazbia Sirry",
+    "year": "1955",
+    "medium": "Oil on Canvas",
+    "dimensions": "133.8x68.4 cm",
+    "accession": "2007.1.1171",
+    "theme": "Family",
+    "image": "../paintings/family/2007.1.1171.jpg",
+    "plotColour": "#44352c",
+    "hue": 22.50000000000001,
+    "saturation": 0.35294117647058826,
+    "value": 0.26666666666666666,
+    "dominantColours": [
+      {
+        "hex": "#44352c",
+        "hue": 22.50000000000001,
+        "saturation": 0.35294117647058826,
+        "value": 0.26666666666666666,
+        "percentage": 4.6
+      },
+      {
+        "hex": "#2e1c17",
+        "hue": 13.043478260869566,
+        "saturation": 0.5,
+        "value": 0.1803921568627451,
+        "percentage": 3.6
+      },
+      {
+        "hex": "#4a4233",
+        "hue": 39.130434782608695,
+        "saturation": 0.31081081081081086,
+        "value": 0.2901960784313726,
+        "percentage": 3.3
+      },
+      {
+        "hex": "#487632",
+        "hue": 100.58823529411765,
+        "saturation": 0.5762711864406781,
+        "value": 0.4627450980392157,
+        "percentage": 2.6
+      },
+      {
+        "hex": "#594d44",
+        "hue": 25.714285714285708,
+        "saturation": 0.23595505617977525,
+        "value": 0.34901960784313724,
+        "percentage": 2.5
+      },
+      {
+        "hex": "#90744a",
+        "hue": 36,
+        "saturation": 0.48611111111111105,
+        "value": 0.5647058823529412,
+        "percentage": 2.5
+      }
+    ]
+  },
+  {
+    "title": "Spring in Mariout",
+    "artist": "Adham Wanly",
+    "year": "1949",
+    "medium": "Oil in Panel",
+    "dimensions": "60.6x78.7 cm",
+    "accession": "2009.6.9",
+    "theme": "Family",
+    "image": "../paintings/family/2009.6.9.jpg",
+    "plotColour": "#aaa48f",
+    "hue": 46.66666666666671,
+    "saturation": 0.15882352941176464,
+    "value": 0.6666666666666666,
+    "dominantColours": [
+      {
+        "hex": "#aaa48f",
+        "hue": 46.66666666666671,
+        "saturation": 0.15882352941176464,
+        "value": 0.6666666666666666,
+        "percentage": 6.7
+      },
+      {
+        "hex": "#c08f42",
+        "hue": 36.66666666666667,
+        "saturation": 0.65625,
+        "value": 0.7529411764705882,
+        "percentage": 4.6
+      },
+      {
+        "hex": "#919178",
+        "hue": 60,
+        "saturation": 0.17241379310344826,
+        "value": 0.5686274509803921,
+        "percentage": 4.4
+      },
+      {
+        "hex": "#beae8f",
+        "hue": 39.57446808510638,
+        "saturation": 0.2473684210526316,
+        "value": 0.7450980392156863,
+        "percentage": 3.6
+      },
+      {
+        "hex": "#d5a64b",
+        "hue": 39.565217391304344,
+        "saturation": 0.647887323943662,
+        "value": 0.8352941176470589,
+        "percentage": 3.5
+      },
+      {
+        "hex": "#443433",
+        "hue": 3.5294117647058703,
+        "saturation": 0.24999999999999994,
+        "value": 0.26666666666666666,
+        "percentage": 3.4
+      }
+    ]
+  }
+]
