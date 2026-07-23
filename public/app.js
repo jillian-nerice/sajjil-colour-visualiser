@@ -232,7 +232,10 @@ visibleArtworks.forEach((artwork, index) => {
     radius: 50,
     artwork
   });
+  console.log(points);
+
 });
+
 
 
 }
@@ -245,11 +248,17 @@ canvas.addEventListener(
     const rect =
       canvas.getBoundingClientRect();
 
-    const x =
-      event.clientX - rect.left;
+const scaleX =
+  canvas.width / rect.width;
 
-    const y =
-      event.clientY - rect.top;
+const scaleY =
+  canvas.height / rect.height;
+
+const x =
+  (event.clientX - rect.left) * scaleX;
+
+const y =
+  (event.clientY - rect.top) * scaleY;
 
     points.forEach(point => {
 
