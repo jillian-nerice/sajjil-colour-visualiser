@@ -400,7 +400,7 @@ document
 setInterval(async () => {
   try {
     // Replace <PI_IP_ADDRESS> with your Raspberry Pi's actual local IP address
-    const response = await fetch("http://<PI_IP_ADDRESS>:5000/get-theme");
+    const response = await fetch("http://10.11.21.21:5000/get-theme");
     const data = await response.json();
     
     if (data.theme && data.theme !== visibleTheme) {
