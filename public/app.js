@@ -229,7 +229,7 @@ visibleArtworks.forEach((artwork, index) => {
   points.push({
     x,
     y,
-    radius: 50,
+    radius: 15,
     artwork
   });
   console.log(points);
