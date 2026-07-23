@@ -333,6 +333,22 @@ function showArtwork(
         `${colour.hex}
 ${colour.percentage}%`;
 
+
+// Add click listener to copy color hex code and show feedback inside
+    div.addEventListener("click", () => {
+      navigator.clipboard.writeText(colour.hex).then(() => {
+        div.textContent = "Copied!";
+        div.classList.add("copied");
+
+        setTimeout(() => {
+          div.textContent = "";
+          div.classList.remove("copied");
+        }, 1500);
+      }).catch(err => {
+        console.error("Failed to copy text: ", err);
+      });
+    });
+
       swatches.appendChild(
         div
       );
