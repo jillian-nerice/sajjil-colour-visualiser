@@ -21,6 +21,10 @@ let artworks = [];
 let visibleTheme = "Nature";
 
 let points = [];
+let zoom = 1;
+
+const MIN_ZOOM = 0.5;
+const MAX_ZOOM = 3;
 
 fetch("artworks.json")
   .then(r => r.json())
@@ -44,6 +48,21 @@ document
     });
 
   });
+
+  canvas.addEventListener("wheel", event => {
+
+  event.preventDefault();
+
+  if (event.deltaY < 0) {
+    zoom = Math.min(MAX_ZOOM, zoom * 1.1);
+  } else {
+    zoom = Math.max(MIN_ZOOM, zoom / 1.1);
+  }
+    console.log("zoom =", zoom);
+
+  draw();
+
+});
 function drawColourWheel() {
   const centreX = canvas.width / 2;
   const centreY = canvas.height / 2;
@@ -138,6 +157,7 @@ function drawHueLabels(centreX, centreY, maxRadius) {
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
   ctx.fillStyle = "rgba(50, 50, 50, 0.58)";
+  
 
   labels.forEach(label => {
     const angle = (label.hue - 90) * Math.PI / 180;
@@ -148,8 +168,7 @@ function drawHueLabels(centreX, centreY, maxRadius) {
 
     ctx.fillText(label.text, x, y);
   });
-
-  ctx.restore();
+ctx.restore();
 }
 function draw() {
 
@@ -159,7 +178,6 @@ function draw() {
     canvas.width,
     canvas.height
   );
-  drawColourWheel();
 
   points = [];
 
@@ -168,6 +186,24 @@ function draw() {
 
   const centreY =
     canvas.height / 2;
+
+ctx.save();
+
+ctx.translate(
+  centreX,
+  centreY
+);
+
+ctx.scale(
+  zoom,
+  zoom
+);
+
+ctx.translate(
+  -centreX,
+  -centreY
+);
+drawColourWheel();
 
   const radius = 350;
 
@@ -263,6 +299,7 @@ visibleArtworks.forEach((artwork, artworkIndex) => {
 
 });
 
+ctx.restore();
 
 
 }
@@ -281,11 +318,25 @@ const scaleX =
 const scaleY =
   canvas.height / rect.height;
 
-const x =
+const canvasX =
   (event.clientX - rect.left) * scaleX;
 
-const y =
+const canvasY =
   (event.clientY - rect.top) * scaleY;
+
+const centreX =
+  canvas.width / 2;
+
+const centreY =
+  canvas.height / 2;
+
+const x =
+  (canvasX - centreX) / zoom +
+  centreX;
+
+const y =
+  (canvasY - centreY) / zoom +
+  centreY;
 
     points.forEach(point => {
 
