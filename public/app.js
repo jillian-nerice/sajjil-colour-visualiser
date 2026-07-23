@@ -395,3 +395,28 @@ document
         "hidden"
       )
   );
+
+  // --- RFID POLLING SCRIPT (PLACE AT THE VERY BOTTOM) ---
+setInterval(async () => {
+  try {
+    // Replace <PI_IP_ADDRESS> with your Raspberry Pi's actual local IP address
+    const response = await fetch("http://<PI_IP_ADDRESS>:5000/get-theme");
+    const data = await response.json();
+    
+    if (data.theme && data.theme !== visibleTheme) {
+      visibleTheme = data.theme;
+      
+      document.querySelectorAll("[data-theme]").forEach(button => {
+        if (button.dataset.theme === visibleTheme) {
+          button.classList.add("active");
+        } else {
+          button.classList.remove("active");
+        }
+      });
+
+      draw();
+    }
+  } catch (error) {
+    console.debug("Waiting for RFID server connection...");
+  }
+}, 2000);
