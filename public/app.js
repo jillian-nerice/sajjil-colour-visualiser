@@ -43,7 +43,7 @@ const artDimensions = document.getElementById("artDimensions");
 const swatches = document.getElementById("swatches");
 
 let artworks = [];
-let visibleTheme = "Nature";
+let visibleTheme = "All";
 
 let points = [];
 let zoom = 1;
@@ -67,6 +67,10 @@ document
     button.addEventListener("click", () => {
 
       visibleTheme = button.dataset.theme;
+
+      // Update active state on toolbar buttons
+      document.querySelectorAll("[data-theme]").forEach(btn => btn.classList.remove("active"));
+      button.classList.add("active");
 
       draw();
 
@@ -246,87 +250,47 @@ drawColourWheel();
   ctx.lineWidth = 2;
   ctx.stroke();
 
-  const visibleArtworks =
-    artworks.filter(a =>
-      a.theme === visibleTheme
-    );
-themeTitle.textContent =
-  `${visibleTheme} Palette`;
+// Filter artworks based on selected theme ("All" or specific categories)
+  const visibleArtworks = visibleTheme === "All"
+    ? artworks
+    : artworks.filter(a => a.theme === visibleTheme);
 
-artworkCount.textContent =
-  `${visibleArtworks.length} artworks`;
-visibleArtworks.forEach((artwork, artworkIndex) => {
+  themeTitle.textContent = visibleTheme === "All" ? "All Artworks Palette" : `${visibleTheme} Palette`;
+  artworkCount.textContent = `${visibleArtworks.length} artworks`;
 
-  artwork.dominantColours.forEach((colour, colourIndex) => {
+  visibleArtworks.forEach((artwork, artworkIndex) => {
+    artwork.dominantColours.forEach((colour, colourIndex) => {
+      const angle = (colour.hue - 90) * Math.PI / 180;
+      const distance = Math.max(35, colour.saturation * radius);
 
-    const angle =
-      (colour.hue - 90) * Math.PI / 180;
+      const jitter = artworkIndex * 7 + colourIndex * 13;
+      const jitterX = Math.cos(jitter) * 8;
+      const jitterY = Math.sin(jitter) * 8;
 
-    const distance =
-      Math.max(
-        35,
-        colour.saturation * radius
-      );
+      const x = centreX + Math.cos(angle) * distance + jitterX;
+      const y = centreY + Math.sin(angle) * distance + jitterY;
 
-    const jitter =
-      artworkIndex * 7 +
-      colourIndex * 13;
+      const dotRadius = 10 + colour.percentage * 0.15;
 
-    const jitterX =
-      Math.cos(jitter) * 8;
+      ctx.beginPath();
+      ctx.arc(x, y, dotRadius, 0, Math.PI * 2);
+      ctx.fillStyle = colour.hex;
+      ctx.fill();
 
-    const jitterY =
-      Math.sin(jitter) * 8;
+      ctx.strokeStyle = "#ffffff";
+      ctx.lineWidth = 1.5;
+      ctx.stroke();
 
-    const x =
-      centreX +
-      Math.cos(angle) * distance +
-      jitterX;
-
-    const y =
-      centreY +
-      Math.sin(angle) * distance +
-      jitterY;
-
-    const dotRadius =
-      10 + colour.percentage * 0.15;
-
-    ctx.beginPath();
-
-    ctx.arc(
-      x,
-      y,
-      dotRadius,
-      0,
-      Math.PI * 2
-    );
-
-    ctx.fillStyle =
-      colour.hex;
-
-    ctx.fill();
-
-    ctx.strokeStyle = "#ffffff";
-    ctx.lineWidth = 1.5;
-    ctx.stroke();
-
-    points.push({
-      x,
-      y,
-      radius: dotRadius + 4,
-      artwork
+      points.push({
+        x,
+        y,
+        radius: dotRadius + 4,
+        artwork
+      });
     });
-
   });
 
-
- 
-
-});
-
-ctx.restore();
-
-
+  ctx.restore();
 }
 
 canvas.addEventListener(
