@@ -1,0 +1,5 @@
+# Force JSON files to use LF line endings
+*.json text eol=lf
+
+# (Optional) Normalize all text files to LF
+* text=auto eol=lf

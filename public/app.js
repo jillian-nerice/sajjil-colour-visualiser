@@ -1,3 +1,29 @@
+let artistsData = {};
+
+const artistTriggerBtn = document.getElementById("artistTriggerBtn");
+
+// Fetch the artist dataset directly as JSON from the public folder
+fetch("artists_dataset.json")
+  .then(r => r.json())
+  .then(data => {
+    data.forEach(artist => {
+      const nameKey = artist.artistname ? artist.artistname.trim() : "";
+      if (nameKey) {
+        artistsData[nameKey] = {
+          name: artist.artistname,
+          birthYear: artist.birthdate,
+          deathYear: artist["death date"],
+          nationality: artist.nationality,
+          bio: artist["biography text"],
+          photo: artist.images || artist.photo || ""
+        };
+      }
+    });
+    console.log("Loaded artists JSON:", artistsData);
+  })
+  .catch(err => console.error("Could not load artists dataset:", err));
+
+
 const canvas = document.getElementById("wheel");
 const ctx = canvas.getContext("2d");
 
@@ -10,7 +36,6 @@ const modal = document.getElementById("modal");
 
 const artImage = document.getElementById("artImage");
 const artTitle = document.getElementById("artTitle");
-const artArtist = document.getElementById("artArtist");
 const artYear = document.getElementById("artYear");
 const artMedium = document.getElementById("artMedium");
 const artDimensions = document.getElementById("artDimensions");
@@ -379,8 +404,8 @@ function showArtwork(
   artTitle.textContent =
     artwork.title;
 
-  artArtist.textContent =
-    artwork.artist;
+  // FIX: Update the button text instead of the deleted artArtist element
+  artistTriggerBtn.textContent = artwork.artist || "Unknown Artist";
 
   artYear.textContent =
     artwork.year;
@@ -435,17 +460,78 @@ ${colour.percentage}%`;
 
 }
 
-document
-  .getElementById(
-    "closeBtn"
-  )
-  .addEventListener(
-    "click",
-    () =>
-      modal.classList.add(
-        "hidden"
-      )
-  );
+// --- ARTIST DRAWER INTERACTIONS ---
+const artworkView = document.getElementById("artworkView");
+const artistView = document.getElementById("artistView");
+const backToArtBtn = document.getElementById("backToArtBtn");
+
+const artistPhoto = document.getElementById("artistPhoto");
+const artistName = document.getElementById("artistName");
+const artistVital = document.getElementById("artistVital");
+const artistBio = document.getElementById("artistBio");
+
+// Fallback image handler for broken/missing files
+function handleImageError(imgElement) {
+  imgElement.style.display = "none";
+  const fallback = document.getElementById("artistPhotoFallback");
+  if (fallback) fallback.style.display = "flex";
+}
+
+// Reusable function to display the artist view safely
+function showArtist(nameInput) {
+  const currentArtistName = nameInput.trim();
+  let info = artistsData[currentArtistName];
+
+  // Case-insensitive fallback lookup
+  if (!info) {
+    const foundKey = Object.keys(artistsData).find(
+      key => key.toLowerCase() === currentArtistName.toLowerCase()
+    );
+    if (foundKey) info = artistsData[foundKey];
+  }
+
+  const imgElement = document.getElementById("artistPhoto");
+  const fallback = document.getElementById("artistPhotoFallback");
+
+  if (info) {
+    artistName.textContent = info.name || currentArtistName;
+    artistVital.textContent = `${info.birthYear || "?"} – ${info.deathYear || "Present"} • ${info.nationality || ""}`;
+    artistBio.textContent = info.bio || "No biography available for this artist yet.";
+
+    if (info.photo && info.photo.trim() !== "") {
+      imgElement.style.display = "block";
+      if (fallback) fallback.style.display = "none";
+      imgElement.src = info.photo;
+    } else {
+      imgElement.style.display = "none";
+      if (fallback) fallback.style.display = "flex";
+    }
+  } else {
+    artistName.textContent = currentArtistName;
+    artistVital.textContent = "Artist record not found in dataset.";
+    artistBio.textContent = `Could not find a match for "${currentArtistName}" in artistsData.`;
+    imgElement.style.display = "none";
+    if (fallback) fallback.style.display = "flex";
+  }
+
+  artworkView.classList.remove("active");
+  artistView.classList.add("active");
+}
+
+artistTriggerBtn.addEventListener("click", () => {
+  showArtist(artistTriggerBtn.textContent);
+});
+
+backToArtBtn.addEventListener("click", () => {
+  artistView.classList.remove("active");
+  artworkView.classList.add("active");
+});
+
+document.getElementById("closeBtn").addEventListener("click", () => {
+  modal.classList.add("hidden");
+  artistView.classList.remove("active");
+  artworkView.classList.add("active");
+});
 
   // --- RFID POLLING SCRIPT (PLACE AT THE VERY BOTTOM) ---
 setInterval(async () => {
@@ -471,3 +557,4 @@ setInterval(async () => {
     console.debug("Waiting for RFID server connection...");
   }
 }, 2000);
+
