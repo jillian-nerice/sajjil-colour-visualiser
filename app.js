@@ -2,7 +2,14 @@ let artistsData = {};
 
 const artistTriggerBtn = document.getElementById("artistTriggerBtn");
 
-// Fetch the artist dataset directly as JSON from the public folder
+// Global image fallback handler
+window.handleImageError = function(imgElement) {
+  imgElement.style.display = "none";
+  const fallback = document.getElementById("artistPhotoFallback");
+  if (fallback) fallback.style.display = "flex";
+};
+
+// Fetch the artist dataset directly as JSON
 fetch("artists_dataset.json")
   .then(r => r.json())
   .then(data => {
@@ -23,15 +30,11 @@ fetch("artists_dataset.json")
   })
   .catch(err => console.error("Could not load artists dataset:", err));
 
-
 const canvas = document.getElementById("wheel");
 const ctx = canvas.getContext("2d");
 
-const themeTitle =
-  document.getElementById("themeTitle");
-
-const artworkCount =
-  document.getElementById("artworkCount");
+const themeTitle = document.getElementById("themeTitle");
+const artworkCount = document.getElementById("artworkCount");
 const modal = document.getElementById("modal");
 
 const artImage = document.getElementById("artImage");
@@ -55,40 +58,23 @@ fetch("artworks.json")
   .then(r => r.json())
   .then(data => {
     artworks = data;
-    
-
     draw();
   });
 
 document
   .querySelectorAll("[data-theme]")
   .forEach(button => {
-
     button.addEventListener("click", () => {
+      visibleTheme = button.dataset.theme;
 
-      document
-        .querySelectorAll("[data-theme]")
-        .forEach(btn =>
-          btn.classList.remove("active")
-        );
-
-      button.classList.add("active");
-
-      visibleTheme =
-        button.dataset.theme;
-
-      // Update active state on toolbar buttons
       document.querySelectorAll("[data-theme]").forEach(btn => btn.classList.remove("active"));
       button.classList.add("active");
 
       draw();
-
     });
-
   });
 
-  canvas.addEventListener("wheel", event => {
-
+canvas.addEventListener("wheel", event => {
   event.preventDefault();
 
   if (event.deltaY < 0) {
@@ -96,20 +82,21 @@ document
   } else {
     zoom = Math.max(MIN_ZOOM, zoom / 1.1);
   }
-    console.log("zoom =", zoom);
+  console.log("zoom =", zoom);
 
   draw();
-
 });
+
 function drawColourWheel() {
   const centreX = canvas.width / 2;
   const centreY = canvas.height / 2;
   const maxRadius = 360;
 
-  // Soft hue wheel
+  // Smooth, high-fidelity hue wheel rendering with clean radial gradients
   for (let angle = 0; angle < 360; angle += 1) {
-    const startAngle = (angle - 1) * Math.PI / 180;
-    const endAngle = angle * Math.PI / 180;
+    const normalizedAngle = (angle - 90) * Math.PI / 180;
+    const startAngle = (angle - 1.5 - 90) * Math.PI / 180;
+    const endAngle = normalizedAngle;
 
     const gradient = ctx.createRadialGradient(
       centreX,
@@ -120,9 +107,11 @@ function drawColourWheel() {
       maxRadius
     );
 
-    gradient.addColorStop(0, "rgba(255,255,255,0.96)");
-    gradient.addColorStop(0.45, `hsla(${angle}, 80%, 78%, 0.18)`);
-    gradient.addColorStop(1, `hsla(${angle}, 90%, 62%, 0.38)`);
+    // Clean neutral center fading smoothly into deep, vibrant outer saturation
+    gradient.addColorStop(0, "rgba(255, 255, 255, 0.98)");
+    gradient.addColorStop(0.2, `hsla(${angle}, 30%, 92%, 0.5)`);
+    gradient.addColorStop(0.6, `hsla(${angle}, 75%, 70%, 0.75)`);
+    gradient.addColorStop(1, `hsla(${angle}, 95%, 52%, 0.92)`);
 
     ctx.beginPath();
     ctx.moveTo(centreX, centreY);
@@ -132,19 +121,19 @@ function drawColourWheel() {
     ctx.fill();
   }
 
-  // Saturation rings
+  // Elegant, subtle saturation rings
   [0.25, 0.5, 0.75, 1].forEach(ring => {
     ctx.beginPath();
     ctx.arc(centreX, centreY, maxRadius * ring, 0, Math.PI * 2);
     ctx.strokeStyle = ring === 1
-      ? "rgba(90, 90, 90, 0.25)"
-      : "rgba(90, 90, 90, 0.10)";
+      ? "rgba(255, 255, 255, 0.5)"
+      : "rgba(255, 255, 255, 0.2)";
     ctx.lineWidth = ring === 1 ? 2 : 1;
     ctx.stroke();
   });
 
-  // Crosshair guide
-  ctx.strokeStyle = "rgba(90, 90, 90, 0.08)";
+  // Soft crosshair guide lines
+  ctx.strokeStyle = "rgba(255, 255, 255, 0.15)";
   ctx.lineWidth = 1;
 
   ctx.beginPath();
@@ -159,25 +148,12 @@ function drawColourWheel() {
 
   drawHueLabels(centreX, centreY, maxRadius);
 
-  ctx.fillStyle =
-  "rgba(60,60,60,0.6)";
+  ctx.fillStyle = "rgba(70, 70, 70, 0.65)";
+  ctx.font = "500 11px system-ui, sans-serif";
+  ctx.textAlign = "center";
 
-    ctx.font =
-    "14px sans-serif";
-
-    ctx.textAlign =
-    "center";
-
-    ctx.fillText(
-    "Low Saturation",
-    centreX,
-    centreY
-    );
-    ctx.fillText(
-    "High Saturation",
-    centreX,
-    centreY - maxRadius - 20
-    );
+  ctx.fillText("Low Saturation", centreX, centreY + 16);
+  ctx.fillText("High Saturation", centreX, centreY - maxRadius - 14);
 }
 
 function drawHueLabels(centreX, centreY, maxRadius) {
@@ -194,8 +170,7 @@ function drawHueLabels(centreX, centreY, maxRadius) {
   ctx.font = "600 14px system-ui";
   ctx.textAlign = "center";
   ctx.textBaseline = "middle";
-  ctx.fillStyle = "rgba(50, 50, 50, 0.58)";
-  
+  ctx.fillStyle = "rgba(40, 40, 40, 0.85)";
 
   labels.forEach(label => {
     const angle = (label.hue - 90) * Math.PI / 180;
@@ -206,80 +181,44 @@ function drawHueLabels(centreX, centreY, maxRadius) {
 
     ctx.fillText(label.text, x, y);
   });
-ctx.restore();
+  ctx.restore();
 }
-function draw() {
 
-  ctx.clearRect(
-    0,
-    0,
-    canvas.width,
-    canvas.height
-  );
+function draw() {
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
 
   points = [];
 
-  const centreX =
-    canvas.width / 2;
+  const centreX = canvas.width / 2;
+  const centreY = canvas.height / 2;
 
-  const centreY =
-    canvas.height / 2;
+  ctx.save();
 
-ctx.save();
+  ctx.translate(centreX, centreY);
+  ctx.scale(zoom, zoom);
+  ctx.translate(-centreX, -centreY);
 
-ctx.translate(
-  centreX,
-  centreY
-);
-
-ctx.scale(
-  zoom,
-  zoom
-);
-
-ctx.translate(
-  -centreX,
-  -centreY
-);
-drawColourWheel();
+  drawColourWheel();
 
   const radius = 350;
 
   ctx.beginPath();
-
-  ctx.arc(
-    centreX,
-    centreY,
-    radius,
-    0,
-    Math.PI * 2
-  );
-
-  ctx.strokeStyle = "#d0d0d0";
-  ctx.lineWidth = 2;
+  ctx.arc(centreX, centreY, radius, 0, Math.PI * 2);
+  ctx.strokeStyle = "rgba(255, 255, 255, 0.6)";
+  ctx.lineWidth = 2.5;
   ctx.stroke();
 
-  const visibleArtworks =
-    artworks.filter(a =>
-      a.theme === visibleTheme
-    );
-themeTitle.textContent =
-  `${visibleTheme} Palette`;
+  const visibleArtworks = visibleTheme === "All"
+    ? artworks
+    : artworks.filter(a => a.theme === visibleTheme);
 
-artworkCount.textContent =
-  `${visibleArtworks.length} artworks`;
-visibleArtworks.forEach((artwork, artworkIndex) => {
+  themeTitle.textContent = visibleTheme === "All" ? "All Artworks Palette" : `${visibleTheme} Palette`;
+  artworkCount.textContent = `${visibleArtworks.length} artworks`;
 
-  artwork.dominantColours.forEach((colour, colourIndex) => {
-
-    const angle =
-      (colour.hue - 90) * Math.PI / 180;
-
-    const distance =
-      Math.max(
-        35,
-        colour.saturation * radius
-      );
+  visibleArtworks.forEach((artwork, artworkIndex) => {
+    artwork.dominantColours.forEach((colour, colourIndex) => {
+      const angle = (colour.hue - 90) * Math.PI / 180;
+      const distance = Math.max(35, colour.saturation * radius);
 
       const jitter = artworkIndex * 7 + colourIndex * 13;
       const jitterX = Math.cos(jitter) * 8;
@@ -288,15 +227,26 @@ visibleArtworks.forEach((artwork, artworkIndex) => {
       const x = centreX + Math.cos(angle) * distance + jitterX;
       const y = centreY + Math.sin(angle) * distance + jitterY;
 
-      const dotRadius = 10 + colour.percentage * 0.15;
+      const dotRadius = 9 + colour.percentage * 0.15;
+
+      // Drop-shadow effect for visual depth
+      ctx.save();
+      ctx.shadowColor = "rgba(0, 0, 0, 0.25)";
+      ctx.shadowBlur = 6;
+      ctx.shadowOffsetX = 0;
+      ctx.shadowOffsetY = 2;
 
       ctx.beginPath();
       ctx.arc(x, y, dotRadius, 0, Math.PI * 2);
       ctx.fillStyle = colour.hex;
       ctx.fill();
+      ctx.restore();
 
+      // Crisp inner border for definition
+      ctx.beginPath();
+      ctx.arc(x, y, dotRadius, 0, Math.PI * 2);
       ctx.strokeStyle = "#ffffff";
-      ctx.lineWidth = 1.5;
+      ctx.lineWidth = 2;
       ctx.stroke();
 
       points.push({
@@ -311,115 +261,50 @@ visibleArtworks.forEach((artwork, artworkIndex) => {
   ctx.restore();
 }
 
-canvas.addEventListener(
-  "click",
-  event => {
-    console.log("canvas clicked");
+canvas.addEventListener("click", event => {
+  const rect = canvas.getBoundingClientRect();
 
-    const rect =
-      canvas.getBoundingClientRect();
+  const scaleX = canvas.width / rect.width;
+  const scaleY = canvas.height / rect.height;
 
-const scaleX =
-  canvas.width / rect.width;
+  const canvasX = (event.clientX - rect.left) * scaleX;
+  const canvasY = (event.clientY - rect.top) * scaleY;
 
-const scaleY =
-  canvas.height / rect.height;
+  const centreX = canvas.width / 2;
+  const centreY = canvas.height / 2;
 
-const canvasX =
-  (event.clientX - rect.left) * scaleX;
+  const x = (canvasX - centreX) / zoom + centreX;
+  const y = (canvasY - centreY) / zoom + centreY;
 
-const canvasY =
-  (event.clientY - rect.top) * scaleY;
+  points.forEach(point => {
+    const dx = x - point.x;
+    const dy = y - point.y;
+    const distance = Math.sqrt(dx * dx + dy * dy);
 
-const centreX =
-  canvas.width / 2;
+    if (distance < point.radius) {
+      showArtwork(point.artwork);
+    }
+  });
+});
 
-const centreY =
-  canvas.height / 2;
+function showArtwork(artwork) {
+  modal.classList.remove("hidden");
 
-const x =
-  (canvasX - centreX) / zoom +
-  centreX;
-
-const y =
-  (canvasY - centreY) / zoom +
-  centreY;
-
-    points.forEach(point => {
-
-      const dx =
-        x - point.x;
-
-      const dy =
-        y - point.y;
-
-      const distance =
-        Math.sqrt(
-          dx * dx +
-          dy * dy
-        );
-
-      if (distance < point.radius) {
-
-        showArtwork(
-          point.artwork
-        );
-
-      }
-
-    });
-
-  }
-);
-
-function showArtwork(
-  artwork
-) {
-
-  modal.classList.remove(
-    "hidden"
-  );
-
-  artImage.src =
-    artwork.image;
-
-  artTitle.textContent =
-    artwork.title;
-
-  // FIX: Update the button text instead of the deleted artArtist element
+  artImage.src = artwork.image;
+  artTitle.textContent = artwork.title;
   artistTriggerBtn.textContent = artwork.artist || "Unknown Artist";
-
-  artYear.textContent =
-    artwork.year;
-
-  artMedium.textContent =
-    artwork.medium;
-
-  artDimensions.textContent =
-    artwork.dimensions;
+  artYear.textContent = artwork.year;
+  artMedium.textContent = artwork.medium;
+  artDimensions.textContent = artwork.dimensions;
 
   swatches.innerHTML = "";
 
-  artwork.dominantColours
-    .forEach(colour => {
+  artwork.dominantColours.forEach(colour => {
+    const div = document.createElement("div");
+    div.className = "swatch";
+    div.style.background = colour.hex;
+    div.title = `${colour.hex}\n${colour.percentage}%`;
 
-      const div =
-        document.createElement(
-          "div"
-        );
-
-      div.className =
-        "swatch";
-
-      div.style.background =
-        colour.hex;
-
-      div.title =
-        `${colour.hex}
-${colour.percentage}%`;
-
-
-// Add click listener to copy color hex code and show feedback inside
     div.addEventListener("click", () => {
       navigator.clipboard.writeText(colour.hex).then(() => {
         div.textContent = "Copied!";
@@ -434,12 +319,8 @@ ${colour.percentage}%`;
       });
     });
 
-      swatches.appendChild(
-        div
-      );
-
-    });
-
+    swatches.appendChild(div);
+  });
 }
 
 // --- ARTIST DRAWER INTERACTIONS ---
@@ -452,19 +333,10 @@ const artistName = document.getElementById("artistName");
 const artistVital = document.getElementById("artistVital");
 const artistBio = document.getElementById("artistBio");
 
-// Fallback image handler for broken/missing files
-function handleImageError(imgElement) {
-  imgElement.style.display = "none";
-  const fallback = document.getElementById("artistPhotoFallback");
-  if (fallback) fallback.style.display = "flex";
-}
-
-// Reusable function to display the artist view safely
 function showArtist(nameInput) {
   const currentArtistName = nameInput.trim();
   let info = artistsData[currentArtistName];
 
-  // Case-insensitive fallback lookup
   if (!info) {
     const foundKey = Object.keys(artistsData).find(
       key => key.toLowerCase() === currentArtistName.toLowerCase()
@@ -515,4 +387,26 @@ document.getElementById("closeBtn").addEventListener("click", () => {
   artworkView.classList.add("active");
 });
 
+// --- RFID POLLING SCRIPT ---
+setInterval(async () => {
+  try {
+    const response = await fetch("http://10.11.21.21:5000/get-theme");
+    const data = await response.json();
+    
+    if (data.theme && data.theme !== visibleTheme) {
+      visibleTheme = data.theme;
+      
+      document.querySelectorAll("[data-theme]").forEach(button => {
+        if (button.dataset.theme === visibleTheme) {
+          button.classList.add("active");
+        } else {
+          button.classList.remove("active");
+        }
+      });
 
+      draw();
+    }
+  } catch (error) {
+    console.debug("Waiting for RFID server connection...");
+  }
+}, 2000);
