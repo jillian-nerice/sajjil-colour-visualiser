@@ -9,17 +9,8 @@ body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
 
-.layout {
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 360px 1fr;
-  gap: 24px;
-  padding: 36px;
-}
 
-.intro {
-  padding-top: 20px;
-}
+
 
 .eyebrow {
   margin: 0 0 12px;
@@ -37,13 +28,6 @@ h1 {
   letter-spacing: -0.04em;
 }
 
-#themeDescription {
-  margin-top: 18px;
-  color: #555;
-  font-size: 1rem;
-  line-height: 1.55;
-  max-width: 300px;
-}
 
 #artworkCount {
   margin-top: 18px;
@@ -51,12 +35,6 @@ h1 {
   font-size: 0.95rem;
 }
 
-#toolbar {
-  margin-top: 26px;
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
-}
 
 button {
   border: 1px solid #c7c3ba;
@@ -79,11 +57,7 @@ button.active {
   border-color: #222;
 }
 
-.visualArea {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+
 
 canvas {
   width: min(78vh, 850px);
@@ -235,4 +209,207 @@ canvas {
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.8);
   transform: scale(1.1);
 }
+}
+/* =========================
+   TOP HEADER
+========================= */
+
+.hero {
+
+  background: #000;
+
+  color: white;
+
+  padding: 14px 24px;
+
+  text-align: center;
+
+  border-bottom: 1px solid #222;
+}
+
+.hero h1 {
+
+  margin: 0;
+
+  font-size: 1.8rem;
+
+  font-weight: 600;
+
+  letter-spacing: -0.02em;
+}
+
+/* =========================
+   THEME BAR
+========================= */
+
+.themeBar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+
+  padding: 14px 20px;
+
+  background: #d9e5f3;
+
+  border-bottom: 1px solid #c8d3df;
+}
+
+/* override generic button styling */
+
+.themeBar button {
+  background: #4b4b4b;
+  color: white;
+
+  border: none;
+  border-radius: 8px;
+
+  min-width: 140px;
+
+  padding: 12px 18px;
+
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.2;
+
+  transition:
+    background .15s ease,
+    transform .15s ease,
+    box-shadow .15s ease;
+}
+
+.themeBar button:hover {
+  background: #2f2f2f;
+  transform: translateY(-1px);
+}
+
+.themeBar button.active {
+  background: #111;
+  box-shadow:
+    0 3px 10px rgba(0,0,0,.18);
+}
+
+.themeBar button:disabled {
+
+  min-width: auto;
+
+  padding: 8px 14px;
+
+  font-size: 0.82rem;
+
+  background: transparent;
+
+  color: #7d8794;
+
+  border: 1px solid #c7d2dc;
+
+  opacity: 1;
+}
+
+
+
+/* =========================
+   MAIN LAYOUT
+========================= */
+
+.content {
+  max-width: 1600px;
+
+  margin: 0 auto;
+
+  display: flex;
+
+  align-items: flex-start;
+
+  gap: 70px;
+
+  padding: 40px 60px;
+}
+
+.sidebar {
+  width: 320px;
+  flex-shrink: 0;
+}
+
+.label {
+  margin: 0 0 12px;
+
+  text-transform: uppercase;
+
+  letter-spacing: .16em;
+
+  font-size: .72rem;
+
+  font-weight: 700;
+
+  color: #8f7d63;
+}
+
+.sidebar h2 {
+  margin: 0 0 18px;
+
+  font-size: 3rem;
+
+  line-height: 1;
+
+  letter-spacing: -0.04em;
+}
+
+.description {
+  color: #666;
+  line-height: 1.8;
+  font-size: .95rem;
+}
+
+#artworkCount {
+  margin-top: 22px;
+  color: #777;
+  font-size: .95rem;
+}
+
+/* =========================
+   WHEEL
+========================= */
+
+.wheelArea {
+  flex: 1;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+#wheel {
+  width: min(88vh, 900px);
+  height: min(88vh, 900px);
+}
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 1100px) {
+
+  .content {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .sidebar {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  #wheel {
+    width: min(92vw, 900px);
+    height: min(92vw, 900px);
+  }
+
+  .themeBar button {
+    min-width: 110px;
+  }
+
 }

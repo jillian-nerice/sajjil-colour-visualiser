@@ -41,7 +41,16 @@ document
 
     button.addEventListener("click", () => {
 
-      visibleTheme = button.dataset.theme;
+      document
+        .querySelectorAll("[data-theme]")
+        .forEach(btn =>
+          btn.classList.remove("active")
+        );
+
+      button.classList.add("active");
+
+      visibleTheme =
+        button.dataset.theme;
 
       draw();
 
@@ -222,9 +231,15 @@ drawColourWheel();
   ctx.stroke();
 
   const visibleArtworks =
-    artworks.filter(a =>
-      a.theme === visibleTheme
-    );
+  artworks.filter(a => {
+
+    if (visibleTheme === "All") {
+      return true;
+    }
+
+    return a.theme === visibleTheme;
+
+  });
 themeTitle.textContent =
   `${visibleTheme} Palette`;
 
