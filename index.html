@@ -9,40 +9,114 @@
 
 <body>
 
-  <main class="layout">
+  <header class="hero">
+  <h1>
+    Sajjil: A Century of Modern Art Visualizer
+  </h1>
+</header>
 
-    <section class="intro">
-      <p class="eyebrow">Sajjil Colour Visualiser</p>
-      <h1 id="themeTitle">Nature Palette</h1>
-      <p id="themeDescription">
-Each point represents one artwork.
+<nav class="themeBar">
 
-The angle around the wheel shows hue
-(red, yellow, green, blue).
+  <button data-theme="All" class="active">
+    All
+  </button>
 
-The distance from the centre shows saturation.
+  <button data-theme="Nature">
+    Nature
+  </button>
 
-Colours near the centre are muted.
+  <button data-theme="Family">
+    Family
+  </button>
 
-Colours near the edge are vibrant.
+  <button disabled class="comingSoon">
+    City
+  </button>
 
-Select a point to view the artwork and its dominant colour palette.
-</p>
+  <button disabled class="comingSoon">
+    Individualism
+  </button>
 
-      <div id="toolbar">
-        <button data-theme="All" class="active">All</button>
-        <button data-theme="Nature" class="active">Nature</button>
-        <button data-theme="Family">Family</button>
-      </div>
+  <button disabled class="comingSoon">
+    Form &amp;<br>Abstraction
+  </button>
 
-      <p id="artworkCount"></p>
-    </section>
+  <button disabled class="comingSoon">
+    Society
+  </button>
 
-    <section class="visualArea">
-      <canvas id="wheel" width="900" height="900"></canvas>
-    </section>
+  <button disabled class="comingSoon">
+    History &amp;<br>Myth
+  </button>
 
-  </main>
+  <button disabled class="comingSoon">
+    Struggle
+  </button>
+
+  <button disabled class="comingSoon">
+    Doha Gallery
+  </button>
+
+  <button disabled class="comingSoon">
+    Huroufiyah
+  </button>
+
+</nav>
+<div class="content">
+
+  <aside class="sidebar">
+
+    <p class="label">
+      SAJJIL COLOUR VISUALISER
+    </p>
+
+    <h2 id="themeTitle">
+      Nature Palette
+    </h2>
+
+    <p class="description">
+
+      Each point represents an artwork.
+
+      <br><br>
+
+      The angle around the wheel shows hue
+      (red, yellow, green, blue).
+
+      <br><br>
+
+      The distance from the centre shows saturation.
+
+      <br><br>
+
+      Colours near the centre are muted.
+
+      <br><br>
+
+      Colours near the edge are vibrant.
+
+      <br><br>
+
+      Select a point to view the artwork
+      and its dominant colour palette.
+
+    </p>
+
+    <p id="artworkCount"></p>
+
+  </aside>
+
+  <section class="wheelArea">
+
+    <canvas
+      id="wheel"
+      width="900"
+      height="900">
+    </canvas>
+
+  </section>
+
+</div>
 
   <div id="modal" class="hidden">
     <div id="modalContent">

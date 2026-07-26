@@ -66,7 +66,16 @@ document
 
     button.addEventListener("click", () => {
 
-      visibleTheme = button.dataset.theme;
+      document
+        .querySelectorAll("[data-theme]")
+        .forEach(btn =>
+          btn.classList.remove("active")
+        );
+
+      button.classList.add("active");
+
+      visibleTheme =
+        button.dataset.theme;
 
       // Update active state on toolbar buttons
       document.querySelectorAll("[data-theme]").forEach(btn => btn.classList.remove("active"));
@@ -250,18 +259,27 @@ drawColourWheel();
   ctx.lineWidth = 2;
   ctx.stroke();
 
-// Filter artworks based on selected theme ("All" or specific categories)
-  const visibleArtworks = visibleTheme === "All"
-    ? artworks
-    : artworks.filter(a => a.theme === visibleTheme);
+  const visibleArtworks =
+    artworks.filter(a =>
+      a.theme === visibleTheme
+    );
+themeTitle.textContent =
+  `${visibleTheme} Palette`;
 
-  themeTitle.textContent = visibleTheme === "All" ? "All Artworks Palette" : `${visibleTheme} Palette`;
-  artworkCount.textContent = `${visibleArtworks.length} artworks`;
+artworkCount.textContent =
+  `${visibleArtworks.length} artworks`;
+visibleArtworks.forEach((artwork, artworkIndex) => {
 
-  visibleArtworks.forEach((artwork, artworkIndex) => {
-    artwork.dominantColours.forEach((colour, colourIndex) => {
-      const angle = (colour.hue - 90) * Math.PI / 180;
-      const distance = Math.max(35, colour.saturation * radius);
+  artwork.dominantColours.forEach((colour, colourIndex) => {
+
+    const angle =
+      (colour.hue - 90) * Math.PI / 180;
+
+    const distance =
+      Math.max(
+        35,
+        colour.saturation * radius
+      );
 
       const jitter = artworkIndex * 7 + colourIndex * 13;
       const jitterX = Math.cos(jitter) * 8;
