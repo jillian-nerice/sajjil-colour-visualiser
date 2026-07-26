@@ -1,0 +1,5 @@
+# Enforce LF for code files
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
